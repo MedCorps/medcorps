@@ -6,7 +6,7 @@
 
 <div id="hpTop">
     <div id="welcome">
-        <h1>The MedCorps Story</h1><br />
+        <h1>The MedCorps Story</h1><br> 
         <p>Welcome to MedCorps Asthma and Pulmonary with <a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a>. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May</a>, and <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey. MedCorps Asthma &amp; Pulmonary will be happy to treat your ailments of the lungs and respiratory system. We are ready to serve the South Jersey area!</p>
     </div>
 </div>
