@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    font-family: inherit;
+    outline: none;
+}
+
+body,
+html {
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+    font-size: 1.35em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+p {
+    font-size: 1em;
+}
+
+ol {
+    list-style-position: outside;
+    margin-left: 1em;
+}
+
+ol > li > ul {
+    margin-left: 1em;
+}
+
+li a {
+    list-style: none;
+    color: inherit;
+}
+
+input,
+textarea,
+select {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    color: #5b5b5b;
+    width: 90%;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* classes */
+
+.addSidebar {
+    margin: 0 auto;
+    float: right;
+}
+
+.bodyWrap {
+    width: 100%;
+}
+
+.btn {
+    padding: 3px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    background-color: #277646;
+    color: #fff;
+    padding: 18px;
+    font-size: 1em;
+    letter-spacing: 10px;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 150px;
+    bottom: 0;
+    border-top: 2px solid #dfb363;
+    background-color: #820000;
+    /* background-color: #007add; */
+    margin: 0px auto;
+    width: 100%;
+    height: 30%;
+    z-index: 0;
+    float: left;
+}
+
+.footerWrap {
+    margin: 0 auto;
+    padding-top: 10px;
+    max-width: 1024px;
+    float: none;
+    color: #fff;
+
+}
+
+.header {
+    margin: 0px auto;
+    width: 100%;
+    height: 200px;
+    background-color: #9a0000;
+    border-bottom: 3px solid #dfb363;
+    /* background-color: #007add; */
+    
+}
+
+.headerWrap {
+    margin: 0 auto;
+    max-width: 1150px;
+}
+
+.infoCon {
+    margin: 2% auto;
+    width: 100%;
+    max-width: 1150px;
+}
+
+.staffWrap {
+    width: 75%;
+    float: left;
+}
+
+.sideCon p a:hover {
+    text-decoration: underline;
+}
+
+.sideCon ul li {
+    margin: 5% auto;
+    width: 200px;
+    padding: 8%;
+    /* background: linear-gradient(#9b9b9b, #313131);*/
+    background-color: #dfb363;
+    /* background-color: #007add; */
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+}
+
+.sideCon ul a:hover {
+    text-decoration: none;
+}
+
+ul.socialicons {
+    list-style: none;
+    overflow: auto;
+}
+
+ul.socialicons li {
+    width: 32px;
+    height: 33px;
+    padding: 0 10px 0 0;
+    float: left;
+}
+
+ul.socialicons li a {
+    width: 32px;
+    height: 33px;
+    display: block;
+    background: url(/img/socicon.png) no-repeat;
+}
+
+ul.socialicons li a.facebook {
+    background-position: 0 -224px;
+}
+
+ul.socialicons li a.facebook:hover {
+    background-position: 0 0;
+}
+
+ul.socialicons li a.googleplus {
+    background-position: -128px -224px;
+}
+
+ul.socialicons li a.googleplus:hover {
+    background-position: -128px 0;
+}
+
+ul.socialicons li a.blog {
+    background-position: -253px -267px;
+}
+
+ul.socialicons li a.blog:hover {
+    background-position: -253px -43px;
+}
+
+/* ids */
+
+
+#blockCo {
+    width: 45%;
+    float: left;
+}
+
+#blockTag {
+    width: 45%;
+    float: right;
+}
+
+.bio {
+    height: 300px;
+    padding: 10px;
+}
+
+#bioPic {
+    width: 150px;
+    height: 300px;
+    float: left;
+    padding: 15px 25px 0 25px;
+}
+
+#bioInfo {
+    width: 70%;
+    height: 250px;
+    float: left;
+    padding: 25px 0 0 0;
+}
+
+#copyr {
+    width: 100%;
+    text-align: center;
+    font-size: .75em;
+    float: left;
+}
+
+#footAdd {
+    margin: 35px auto;
+    width: 20%;
+    display: inline-block;
+    padding: 10px;
+    float: none;
+}
+
+#footLogo {
+    margin: 10px auto;
+    float: right;
+    text-align: center;
+}
+
+#logo {
+    margin-top: 20px;
+    float: left;
+    z-index: 20;
+}
+
+#hours {
+    text-align: center;
+    width: 55%;
+    max-width: 800px;
+    background-color: #ebebeb;
+    padding: 20px;
+    height: 160px;
+    float: right;
+    /* box-shadow: 0 0 25px #888888; */
+    border-radius: 15px;
+}
+
+#hpTop {
+    background-image: url("/img/mc_bkg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#hpMid {
+    margin: 125px auto;
+    display: block;
+    width: 100%;
+    height: 300px;
+}
+
+#hpMidtwo {
+    margin: auto;
+    width: 80%;
+    height: 250px;
+}
+
+#hpBot {
+    margin: 50px;
+    text-align: center;
+}
+
+#map {
+    margin: 0 auto;
+    width: 70%;
+    height: 625px;
+    float: left;
+}
+
+#officeLoc {
+    display: inline-block;
+    width: 31%;
+    height: 100px;
+    padding: 5px;
+    float: left;
+}
+
+#officeLoc ul li {
+    font-size: 80%;
+}
+
+#patCare {
+    width: 30%;
+    background-color: #ebebeb;
+    padding: 20px;
+    height: 160px;
+    float: left;
+    /* box-shadow: 0 0 25px #888888; */
+    border-radius: 15px;
+}
+
+#portal {
+    width: 100%;
+    height: 900px;
+}
+
+#title_block {
+    margin-top: 2%;
+    width: 400px;
+    float: right;
+    color: #ffffff;
+}
+
+#titleCo {
+    font-size: 3em;
+    margin: 5px auto;
+    letter-spacing: 8px;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #303030;
+}
+
+#titleName {
+    font-size: 1.45em;
+}
+
+#titleTag {
+    margin: 8px auto;
+    font-size: 1.75em;
+    letter-spacing: 1px;
+    text-align: right;
+    text-shadow: 2px 2px 4px #303030;
+}
+
+#socialmedia {
+    margin: -35px auto;
+    width: 15%;
+    float: right;
+}
+
+#serviceHighlite {
+    margin-right: 40px;
+    display: inline-block;
+    min-width: 25%;
+    height: 320px;
+    background-color: rgb(130, 0, 0);
+    /* background-color: #007add; */
+    color: #fff;
+    border-radius: 40px;
+}
+
+#serviceHighlite:last-child {
+    margin-right: 0;
+}
+
+#serviceInfo {
+    margin-top: 25px;
+    width: 90%;
+    padding: 10px;
+    float: left;
+}
+
+#servInfo {
+    margin-top: 20px;
+    width: 70%;
+    height: 150px;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+#welcome {
+    position: relative;
+    top: 70px;
+    left: 15%;
+    width: 45%;
+    padding: 5px;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #9a0000;
+    /* text-shadow: 0 0 10px #2d2d2d; */
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 1024px)
+
+/* 1000 */
+    {
+
+    #bio {
+        width: 90%;
+        font-size: 1.25em;
+        height: 95%;
+    }
+
+    #hpMidtwo {
+        margin: 15px auto;
+        width: 100%;
+        height: 600px;
+    }
+
+    #hours {
+        margin: 25px auto;
+        width: 60%;
+        height: 225px;
+        padding: 25px;
+        float: none;
+        font-size: 1.15em;
+    }
+
+    #logo {
+        margin-left: 2%;
+    }
+
+    #patCare {
+        margin: 25px auto;
+        width: 60%;
+        height: 250px;
+        padding: 25px;
+        float: none;
+        font-size: 1.25em;
+    }
+
+    #welcome {
+        width: 60%;
+        letter-spacing: 0em;
+    }
+
+}
+
+@media only screen and (max-width: 768px)
+
+/* 640 */
+    {
+
+    h1 {
+        font-size: 1.15em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    p {
+        padding: 5px;
+        font-size: 1em;
+    }
+
+
+    .addSidebar {
+        float: none;
+    }
+
+    .footer {
+        height: 150%;
+        margin: 50px auto;
+    }
+
+    .header {
+        height: 375px;
+    }
+
+    .headerWrap {
+        text-align: center;
+    }
+
+    .sideCon {
+        margin: 0 auto;
+        width: 250px;
+    }
+
+    .sideCon p {
+        font-size: 1.25em;
+    }
+
+    .sideCon ul li {
+        font-size: 1.5em;
+    }
+
+    .staffWrap {
+        margin: 10px auto;
+        width: 90%;
+        float: none;
+    }
+
+    .bio {
+        width: 100%;
+        font-size: 1.25em;
+        height: 95%;
+    }
+
+    #bioPic {
+        width: 90%;
+        ;
+        height: 95%;
+        float: none;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #footAdd {
+        margin: 15px auto;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    #footLogo {
+        margin: 10px auto;
+        float: none;
+        text-align: center;
+    }
+
+    #hours {
+        margin: 25px auto;
+        width: 80%;
+        height: 375px;
+        padding: 15px;
+        float: none;
+        font-size: 1.5em;
+    }
+
+    #hpTop {
+        width: 100%;
+        height: 300px;
+        opacity: .9;
+    }
+
+    #hpMid {
+        margin: 25px auto;
+        height: 975px;
+    }
+
+    #hpMidtwo {
+        margin: 50px auto;
+        width: 100%;
+        height: 600px;
+    }
+
+    #hpBot {
+        display: none;
+    }
+
+    #logo {
+        width: 100%;
+    }
+
+    #map {
+        width: 90%;
+        float: none;
+    }
+
+    #officeLoc {
+        width: 100%;
+        padding: 5px;
+    }
+
+    #patCare {
+        margin: 25px auto;
+        width: 80%;
+        height: 250px;
+        padding: 15px;
+        float: none;
+        font-size: 1.45em;
+    }
+
+    #title_block {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    #titleName {
+        font-size: 1.5em;
+    }
+
+    #titlePhone {
+        font-size: 2.2em;
+    }
+
+    #socialmedia {
+        margin: 3px auto;
+        width: 40%;
+        float: left;
+        padding-left: 15px;
+    }
+
+    #serviceHighlite {
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    #servInfo {
+        margin-top: 30px;
+        font-size: 1.75em;
+        text-align: center;
+    }
+
+    #welcome {
+        top: 20px;
+        left: 5%;
+        width: 90%;
+        font-size: 1.4em;
+        letter-spacing: 0em;
+        color: #fff;
+        text-shadow: 0 0 10px #2d2d2d;
+    }
+
+}
