@@ -100,6 +100,6 @@
 
 
 <div id="hpBot">
-    <img src="img/mc_bkg_breathe.jpg" alt="image of breathe" />
+    <img src="img/mc_bkg_breathe-gold.jpg" alt="image of breathe" />
 </div>
 <?php include '_footer.php'; ?>
