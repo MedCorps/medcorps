@@ -149,10 +149,6 @@ span {
     float: left;
 }
 
-.sideCon p a:hover {
-    text-decoration: underline;
-}
-
 .sideCon ul li {
     margin: 5% auto;
     width: 200px;
@@ -164,9 +160,9 @@ span {
     display: block;
     color: #fff;
 }
-
+ 
 .sideCon ul a:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 ul.socialicons {
@@ -213,7 +209,6 @@ ul.socialicons li a.blog:hover {
 }
 
 /* ids */
-
 
 #blockCo {
     width: 45%;
