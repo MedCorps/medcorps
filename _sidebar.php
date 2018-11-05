@@ -17,7 +17,7 @@
         <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a></p>
         <br>
 
-        <a href="dircapemay.php" title="Click for Directions"><li>Cape May NJ</li></a>
+        <a href="dircapemay.php" title="Click for Directions"><li>Cape May Court House NJ</li></a>
         <p>Thursday - 9am - 1pm</p>
         <p>Friday - 9am - 1pm</p>
         <p>(609) 778-2744</p>

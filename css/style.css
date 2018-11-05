@@ -130,7 +130,7 @@ span {
     background-color: #9a0000;
     border-bottom: 3px solid #dfb363;
     /* background-color: #007add; */
-    
+
 }
 
 .headerWrap {
@@ -142,6 +142,12 @@ span {
     margin: 2% auto;
     width: 100%;
     max-width: 1150px;
+}
+
+.leftSplit {
+    width: 75%;
+    float: left;
+    min-height: 650px;
 }
 
 .staffWrap {
@@ -160,7 +166,7 @@ span {
     display: block;
     color: #fff;
 }
- 
+
 .sideCon ul a:hover {
     text-decoration: underline;
 }
@@ -480,7 +486,6 @@ ul.socialicons li a.blog:hover {
         font-size: 1em;
     }
 
-
     .addSidebar {
         float: none;
     }
@@ -498,9 +503,18 @@ ul.socialicons li a.blog:hover {
         text-align: center;
     }
 
+    .leftSplit {
+        margin: 10px auto;
+        width: 90%;
+        float: none;
+        min-height: inherit;
+        font-size: 125%;
+
+    }
+
     .sideCon {
         margin: 0 auto;
-        width: 250px;
+        width: 90%;
     }
 
     .sideCon p {
@@ -509,6 +523,7 @@ ul.socialicons li a.blog:hover {
 
     .sideCon ul li {
         font-size: 1.5em;
+        width: 80%;
     }
 
     .staffWrap {

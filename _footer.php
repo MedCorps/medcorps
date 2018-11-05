@@ -3,7 +3,7 @@
 <div class="footer">
     <div class="footerWrap">
         <div id="footAdd">
-            <h2>Sewell Office</h2>
+            <h2>Sewell</h2>
             <p>856.352.6572 - office<br> 856.352.6710 - fax</p>
             <a href="dirsewell.php">
                 <p>100 Kings Way East Unit D1 Sewell, NJ 08080</p>
@@ -11,7 +11,7 @@
         </div>
 
         <div id="footAdd">
-            <h2>Linwood Office</h2>
+            <h2>Linwood</h2>
             <p>609.788.8953 - office<br> 609.904.6929 - fax</p>
             <a href="dirlinwood.php">
                 <p>222 New Rd #201, Linwood, NJ 08221</p>
@@ -19,7 +19,7 @@
         </div>
 
         <div id="footAdd">
-            <h2>Capy May Office</h2>
+            <h2>Capy May CH</h2>
             <p>609.778.2744 - office<br></p>
             <a href="dircapemay.php">
                 <p>211 South Main St. Suite 203 Cape May Court House, NJ 08210</p>
