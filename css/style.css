@@ -150,6 +150,11 @@ span {
     min-height: 650px;
 }
 
+.leftSplit img {
+    width: 100%;
+    padding: 5% 0;
+}
+
 .staffWrap {
     width: 75%;
     float: left;
@@ -406,6 +411,11 @@ ul.socialicons li a.blog:hover {
     font-size: 1.25em;
 }
 
+#telemedLink li {
+    display: inline-block;
+    padding: 2%;
+}
+
 #welcome {
     position: relative;
     top: 70px;
@@ -644,6 +654,13 @@ ul.socialicons li a.blog:hover {
         font-size: 1.75em;
         text-align: center;
     }
+
+    #telemedLink li {
+        width: 90%;
+        display: inline-block;
+        padding: 2%;
+    }
+
 
     #welcome {
         top: 20px;
