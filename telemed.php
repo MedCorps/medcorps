@@ -9,29 +9,19 @@
             fatback pig swine tip cow bacon kielbasa, pig ribs strip pork pancetta tip ham
             ham loin porchetta, cow loin kevin pig bresaola ham strip capicola sopressata
             cow capicola beef biltong, brisket hock turducken pancetta. </p>
-
         <img src="img/ban-telemed-1440.jpg">
-
-        <ul id="telemedLink">
-            <li><a href="https://itunes.apple.com/us/app/chiron-health/id1028470045" target="_blank"><img src="img/but-itunes.png"></a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.chironhealth.patients&hl=en_US" target="_blank"><img src="img/but-google-play.png"></a></li>
-            <li><a href="https://patients.chironhealth.com/patient_users/sign_in" target="_blank"><img src="img/but-chiron.png"></a></li>
-        </ul>
-
-        <h1>Telemedicine treatments available:</h1>
-        <ul>
-            <li>Cold &amp; Flu</li>
-            <li>Allergies</li>
-            <li>STD</li>
-            <li>Gout</li>
-            <li>Lost aminals</li>
-        </ul>
-
+        <center>
+            <ul id="telemedLink">
+                <li><a href="https://itunes.apple.com/us/app/chiron-health/id1028470045" target="_blank"><img src="img/but-itunes.png"></a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.chironhealth.patients&hl=en_US" target="_blank"><img src="img/but-google-play.png"></a></li>
+                <li><a href="https://patients.chironhealth.com/patient_users/sign_in" target="_blank"><img src="img/but-chiron.png"></a></li>
+            </ul>
+        </center>
     </div>
-
-
     <div class="addSidebar">
         <?php include '_sidebar.php'; ?>
     </div>
 </div>
+
+
 <?php include '_footer.php'; ?>

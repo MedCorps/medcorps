@@ -26,12 +26,23 @@
             </a>
         </div>
 
-        <div id="footLogo"><img src="/img/logo.png" alt="MedCorps logo" /><br>
-        <span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=zaV35RdWJoO7I3pvcQhdVbDvgMU9nJ28mLBetmzkn2nvLRSjXyNPQ7E9udmJ"></script></span>
-        
+        <div id="footAdd">
+            <h2>Maysville KY</h2>
+            <p>606.759.9424 - office<br> 606.759.1118 - fax</p>
+            <a href="dirkentucky.php">
+                <p>910 Kenton Station Dr, Maysville, KY 41056</p>
+            </a>
         </div>
-        
-        <div id="copyr" style="text-align:center;">©2018 MedCorps</div>
+
+
+        <div id="footLogo"><img src="/img/logo.png" alt="MedCorps logo" /><br>
+            <!-- <span id="siteseal">
+                <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=zaV35RdWJoO7I3pvcQhdVbDvgMU9nJ28mLBetmzkn2nvLRSjXyNPQ7E9udmJ"></script>
+            </span> -->
+
+        </div>
+
+        <div id="copyr" style="text-align:center;">©2019 MedCorps</div>
     </div>
 </div> <!-- end of footer container -->
 <!-- jquery update -->

@@ -10,6 +10,7 @@
                         <li><a href="dirsewell.php">Sewell</a></li>
                         <li><a href="dirlinwood.php">Linwood</a></li>
                         <li><a href="dircapemay.php">Cape May Cout House</a></li>
+                        <li><a href="dirkentucky.php">Maysville KY</a></li>
                     </ul>
                 </li>
                 <li><a href="#nav">Patient Forms</a>
@@ -31,11 +32,11 @@
                 <li><a href="patport.php">Patient Portal</a></li>
                 <li><a href="staff.php">Meet the Staff</a></li>
             </ul>
-            <div id="socialmedia">
+            <!-- <div id="socialmedia">
                 <ul class="socialicons">
                     <li><a class="facebook" href="https://www.facebook.com/MedCorpsAandP/" target="_blank"></a></li>
                 </ul>
-            </div>
+            </div> -->
         </nav>
     </div>
 </div>

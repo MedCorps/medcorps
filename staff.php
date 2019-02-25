@@ -22,11 +22,11 @@
             <p>I am MedCorp’s Practice Nurse. I earned my bachelor's degree from East Carolina University and my nursing degree from Gloucester County College. I am currently working towards my bachelor’s of nursing degree. I have been in the nursing field for 10 years now. My work history includes Underwood Memorial Hospital in Woodbury, NJ and also PENN Presbyterian Hospital in PA. I love spending time with my husband and 4 children in Cape May and we travel whenever we can. I have also completed 8 triathlons so far. I look forward to seeing you in the office and doing my best to meet your medical needs.</p><br>
         </div>
 
-        <div id="bioPic"><img src="img/staff_sue.jpg" alt="Susan Fisher-Brown - APN-C, Nurse Pract." /></div>
+        <!-- <div id="bioPic"><img src="img/staff_sue.jpg" alt="Susan Fisher-Brown - APN-C, Nurse Pract." /></div>
         <div class="bio">
             <h1>Susan Fisher-Brown - APN-C, Nurse Practitioner</h1><br>
             <p>Serving others and assisting them to obtain optimal health is my mission. I received my nursing education from Helene Fuld School of Nursing in 1996, my Family Nurse Practitioner from Walden University, and my NP certification through the American Academy of Nurse Practitioners. My experience over the years has included the following specialties: palliative care, hospice, home health, medical/surgical, oncology, telemetry, psychiatric, pediatric, and urgent care. I am incredibly blessed to spend the majority of my time with my amazing husband and five beautiful children. I look forward to serving you at MedCorps Asthma and Pulmonary, where you are more than just our patient</p><br>
-        </div>
+        </div> -->
 
         <div id="bioPic"><img src="img/staff_jen.jpg" alt="Jennifer Flatley - Respiratory Therapist" /></div>
         <div class="bio">
