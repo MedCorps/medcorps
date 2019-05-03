@@ -1,13 +1,13 @@
 <? $title_tag = 'MedCorps | Asthma & Pulmonary Specialist'; ?>
 <? $pageMeta = 'MedCorps Asthma & Pulmonary will be happy to treat your ailments of the lungs and respiratory system'; ?>
-<? $pageKeywords ='Sleep Apnea,COPD,Asthma,Bronchitis,ARDS,Cystic Fibrosis,Interstitial Lung Disease,Lung Cancer,Occupational Lung Disease,Pulmonary Hypertension,Sarcoidosis Lungs';?>
+<? $pageKeywords ='Sleep Apnea,COPD,Asthma,Bronchitis,ARDS,Cystic Fibrosis,Interstitial Lung Disease,Lung Cancer,Occupational Lung Disease,Pulmonary Hypertension,Sarcoidosis Lungs,Dr. Peter J. Saccone - DO,Dr. Allen Silvey - DO';?>
 
 <?php include '_header.php'; ?>
 
 <div id="hpTop">
     <div id="welcome">
         <h1>The MedCorps Story</h1><br>
-        <p>Welcome to MedCorps Asthma and Pulmonary with <a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a>. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, and <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and now serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary will be happy to treat your ailments of the lungs and respiratory system.</p>
+        <p>Welcome to MedCorps Asthma and Pulmonary with <a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone - DO</a>. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, and <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and now serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary will be happy to treat your ailments of the lungs and respiratory system.</p>
     </div>
 </div>
 
