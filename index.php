@@ -6,8 +6,9 @@
 
 <div id="hpTop">
     <div id="welcome">
-        <h1>The MedCorps Story</h1><br>
-        <p>Welcome to MedCorps Asthma and Pulmonary with <a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone - DO</a>. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, and <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and now serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary will be happy to treat your ailments of the lungs and respiratory system.</p>
+        <p>Welcome to MedCorps Asthma and Pulmonary with <a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone - DO</a>. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and now serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary treats pulmonary disease and sleep disorders.</p>
+        <div id="topDoclogo"><a href="topdoc.php"><img src="img/topdoc-logo.jpg" alt="Top doc logo"></a>
+        </div>
     </div>
 </div>
 
@@ -110,6 +111,7 @@
 
 
 <div id="hpBot">
-    <img src="img/mc_bkg_breathe-gold.jpg" alt="image of breathe" />
+    <img src="img/Silvey_Certificate.jpg" alt="Dr. Allen L. Silvey, Jr. - DO. Voted South Jersey magazine Top Doc 2019 for pulmonary medicine" />
+    <img src="img/Saccone_Certificate.jpg" alt="Dr. Peter J. Saccone - DO. Voted South Jersey magazine Top Doc 2019 for pulmonary medicine" />
 </div>
 <?php include '_footer.php'; ?>

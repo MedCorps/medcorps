@@ -13,7 +13,14 @@
         <div id="bioPic"><img src="img/staff-peter02.jpg" alt="Dr. Peter J. Saccone - DO" /></div>
         <div class="bio" id="peter">
             <h1>Dr. Peter J. Saccone - DO</h1><br>
-            <p>I am very happy to be part of Medcorps and to have the opportunity to work in South Jersey. I attended Philadelphia College of Osteopathic Medicine for both medical school and residency. I came to Rowan University School of Osteopathic Medicine and completed my fellowship in Pulmonary and Critical Care medicine. I have had additional training in the field of interventional pulmonology. These highly specialized skills allow me to diagnose lung cancer in its earliest stages, offering options, even cures, never before available. I was an assistant professor of medicine at Rowan University School of Osteopathic Medicine and continue to teach physicians of all skill levels. I live here in South Jersey, and love spending my free time with my beautiful wife and daughter. Additionally, I am the medical director at Underground Martial Arts and Fitness, where I have earned a Black Belt in mixed martial arts. I look forward to seeing you in the office!</p>
+            <p>I am very happy to be part of Medcorps and to have the opportunity to work in South Jersey. I attended Philadelphia College of Osteopathic Medicine for both medical school and residency. I came to Rowan University School of Osteopathic Medicine and completed my fellowship in Pulmonary and Critical Care medicine. I have had additional training in the field of interventional pulmonology. These highly specialized skills allow me to diagnose lung cancer in its earliest stages, offering options, even cures, never before available. I was an assistant professor of medicine at Rowan University School of Osteopathic Medicine and continue to teach physicians of all skill levels. I live here in South Jersey, and love spending my free time with my beautiful wife and daughter. Additionally, I am the medical director at <a href="https://www.facebook.com/UndergroundMartialArts" style="text-decoration:underline" target="blank" >Underground Martial Arts and Fitness</a>, where I have earned a 2nd degree Black Belt in mixed martial arts. I look forward to seeing you in the office!</p>
+        </div>
+
+
+        <div id="bioPic"><img src="img/staff-michelle.jpg" alt="Michelle Kus - PA" /></div>
+        <div class="bio" id="michelle">
+            <h1>Michelle Kus - PA</h1><br>
+            <p>I attended Philadelphia University (currently known as Thomas Jefferson University) and graduated cum laude from their 5-year accelerated program in 2013 with my Master's of Science in Physician Assistant Studies. I am certified by the National Commission on Certification of Physician Assistants (NCCPA). Prior to joining MedCorps in 2018, I spent the first five years of my career as a physician assistant working in primary care in the South Jersey area. I currently live in Gloucester County with my husband and we enjoy spending time with family or traveling in our spare time. I look forward to seeing you in our Linwood office!</p>
         </div>
 
         <div id="bioPic"><img src="img/staff_carolyn.jpg" alt="Carolyn Silvey - RN" /></div>
@@ -22,16 +29,23 @@
             <p>I am MedCorp’s Practice Nurse. I earned my bachelor's degree from East Carolina University and my nursing degree from Gloucester County College. I am currently working towards my bachelor’s of nursing degree. I have been in the nursing field for 10 years now. My work history includes Underwood Memorial Hospital in Woodbury, NJ and also PENN Presbyterian Hospital in PA. I love spending time with my husband and 4 children in Cape May and we travel whenever we can. I have also completed 8 triathlons so far. I look forward to seeing you in the office and doing my best to meet your medical needs.</p><br>
         </div>
 
-        <!-- <div id="bioPic"><img src="img/staff_sue.jpg" alt="Susan Fisher-Brown - APN-C, Nurse Pract." /></div>
-        <div class="bio">
-            <h1>Susan Fisher-Brown - APN-C, Nurse Practitioner</h1><br>
-            <p>Serving others and assisting them to obtain optimal health is my mission. I received my nursing education from Helene Fuld School of Nursing in 1996, my Family Nurse Practitioner from Walden University, and my NP certification through the American Academy of Nurse Practitioners. My experience over the years has included the following specialties: palliative care, hospice, home health, medical/surgical, oncology, telemetry, psychiatric, pediatric, and urgent care. I am incredibly blessed to spend the majority of my time with my amazing husband and five beautiful children. I look forward to serving you at MedCorps Asthma and Pulmonary, where you are more than just our patient</p><br>
-        </div> -->
-
-        <div id="bioPic"><img src="img/staff_jen.jpg" alt="Jennifer Flatley - Respiratory Therapist" /></div>
+        <div id="bioPic"><img src="img/staff-jen.jpg" alt="Jennifer Flatley - Respiratory Therapist" /></div>
         <div class="bio">
             <h1>Jennifer Flatley - Respiratory Therapist</h1><br>
             <p>I am MedCorp’s Respiratory Therapist. I earned my degree from University of Medicine and Dentistry and I have been in the Respiratory field for 17 years. I am married and have 2 children and 2 step-children which always keep me going. I am always running from field hockey, softball to baseball. I am very excited for the new challenges the office will give me from pulmonary functions tests to pulmonary rehab. I look forward to having you in the office and to help you with you respiratory needs.</p>
+        </div>
+
+
+        <div id="bioPic"><img src="img/staff-ariel.jpg" alt="Ariel Witten - CMA" /></div>
+        <div class="bio">
+            <h1>Ariel Witten - CMA </h1><br>
+            <p>I am MedCorps Medical Assistant in the Sewell Office. I attended Camden County Technical School in 2009 and obtained my certificate through the AAMA as a Certified Medical Assistant in 2010. I am very well-versed in the field and though cardiology is where I've spent most of my career, I am ecstatic to be learning the ins-and-outs of pulmonology and look forward to working with you! While I'm not at work you can find me spending time with my family and kids. I look forward to meeting you in the Sewell office!</p>
+        </div>
+
+        <div id="bioPic"><img src="img/staff-alyssa.jpg" alt="Alyssa Crabtree - LPN" /></div>
+        <div class="bio">
+            <h1>Alyssa Crabtree - LPN </h1><br>
+            <p>I am MedCorp's LPN in the Maysville, Ky office. I attended Maysville Career and technical college where I obtained my associates degree in applied science and my practical nursing certificate. I have been in the nursing field for 5 years. My work history includes long term care as well as palliative care. I enjoy spending time with my fiance and 3 children. I am excited to experience telemed along with you. I look forward to seeing you in the office!</p>
         </div>
     </div>
     <div class="addSidebar">

@@ -6,7 +6,7 @@
             <h2>Sewell</h2>
             <p>856.352.6572 - office<br> 856.352.6710 - fax</p>
             <a href="dirsewell.php">
-                <p>100 Kings Way East Unit D1 Sewell, NJ 08080</p>
+                <p>100 Kings Way East #D1 Sewell, NJ 08080</p>
             </a>
         </div>
 
@@ -22,7 +22,7 @@
             <h2>Capy May CH</h2>
             <p>609.778.2744 - office<br></p>
             <a href="dircapemay.php">
-                <p>211 South Main St. Suite 203 Cape May Court House, NJ 08210</p>
+                <p>211 South Main St. #203 Cape May Court House, NJ 08210</p>
             </a>
         </div>
 

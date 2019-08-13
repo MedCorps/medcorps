@@ -23,7 +23,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="description" content="<?php echo $pageMeta; ?>">
-    <meta name="keywords" content="<?php echo $pageKeywords; ?>"> 
+    <meta name="keywords" content="<?php echo $pageKeywords; ?>">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/nav.css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -39,15 +39,20 @@
     <div class="header">
         <div class="headerWrap">
             <div id="logo"><a href="index.php"><img src="../img/logo.png" alt="MedCorps Asthma Pulmonary" /></a></div>
+
             <div id="title_block">
-                <div id="titleName">Dr. Allen L. Silvey, Jr. - DO</div>
-                <div id="titleName">Dr. Peter J. Saccone - DO</div>
-                <div id="titleName">Asthma &amp; Pulmonary Specialist</div><br>
                 <div id="titlePhone">856.352.6572 - Sewell</div>
                 <div id="titlePhone">609.788.8953 - Linwood</div>
                 <div id="titlePhone">609.778.2744 - Cape May Court House</div>
-                <div id="titlePhone">606.759.9424 - Maysville KY</div> 
+                <div id="titlePhone">606.759.9424 - Maysville KY</div>
             </div>
+            <div id="title_block">
+                <div id="titleName"><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a></div>
+                <div id="titleName"><a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone - DO</a></div>
+                <div id="titleName"><a href="staff.php#michelle" title="Click for Bio">Michelle Kus - PA</a></div>
+                <div id="titleName">Asthma &amp; Pulmonary Specialist</div><br>
+            </div>
+
 
         </div>
     </div>

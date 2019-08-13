@@ -70,7 +70,12 @@ span {
 .addSidebar {
     margin: 0 auto;
     float: right;
-    height: 800px;
+    height: 950px;
+}
+
+.bio {
+    height: 300px;
+    padding: 10px;
 }
 
 .bodyWrap {
@@ -127,11 +132,10 @@ span {
 .header {
     margin: 0px auto;
     width: 100%;
-    height: 225px;
+    height: 160px;
     background-color: #9a0000;
     border-bottom: 3px solid #dfb363;
     /* background-color: #007add; */
-
 }
 
 .headerWrap {
@@ -232,11 +236,6 @@ ul.socialicons li a.blog:hover {
     float: right;
 }
 
-.bio {
-    height: 300px;
-    padding: 10px;
-}
-
 #bioPic {
     width: 150px;
     height: 300px;
@@ -291,7 +290,7 @@ ul.socialicons li a.blog:hover {
 }
 
 #hpTop {
-    background-image: url("/img/mc_bkg.jpg");
+    background-image: url("/img/mc_bkg2.jpg");
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -313,6 +312,10 @@ ul.socialicons li a.blog:hover {
 #hpBot {
     margin: 50px;
     text-align: center;
+}
+
+#hpBot img {
+    padding: 0 5% 0 5%;
 }
 
 #map {
@@ -365,7 +368,7 @@ ul.socialicons li a.blog:hover {
 }
 
 #titleName {
-    font-size: 1.45em;
+    font-size: 1.25em;
 }
 
 #titleTag {
@@ -417,16 +420,20 @@ ul.socialicons li a.blog:hover {
     padding: 2%;
 }
 
+#topDoclogo {
+    margin-top: 5%;
+}
+
 #welcome {
     position: relative;
-    top: 100px;
+    top: 20%;
     left: 15%;
     width: 45%;
     padding: 5px;
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: .1em;
-    color: #9a0000;
+    color: #fff;
     /* text-shadow: 0 0 10px #2d2d2d; */
 }
 
@@ -583,7 +590,7 @@ ul.socialicons li a.blog:hover {
 
     #hpTop {
         width: 100%;
-        height: 300px;
+        height: 375px;
         opacity: .9;
     }
 
@@ -595,11 +602,16 @@ ul.socialicons li a.blog:hover {
     #hpMidtwo {
         margin: 50px auto;
         width: 100%;
-        height: 600px;
+        height: 800px;
     }
 
     #hpBot {
-        display: none;
+        height: 500px;
+        margin: 0;
+    }
+
+    #hpBot img {
+        padding: 3%;
     }
 
     #logo {
@@ -635,7 +647,7 @@ ul.socialicons li a.blog:hover {
     }
 
     #titlePhone {
-        font-size: 2.2em;
+        font-size: 1.5em;
     }
 
     #socialmedia {

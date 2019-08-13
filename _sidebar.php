@@ -19,6 +19,7 @@
         <p>9am - 4pm</p>
         <p>(609) 788-8953</p>
         <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a></p>
+        <p><a href="staff.php#michelle" title="Click for Bio">Michelle Kus - PA</a></p>
         <br>
 
         <a href="dircapemay.php" title="Click for Directions">
@@ -36,5 +37,8 @@
         <p>8:30am - 4:30pm</p>
         <p>(606) 759-9424</p>
         <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr. - DO</a></p>
-    </ul>
+        <p><a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone - DO</a></p>
+    </ul><br>
+    <div id="topDoclogo"><a href="topdoc.php"><img src="img/topdoc-logo.jpg" alt="Top doc logo"></a>
+        </div>
 </div>
