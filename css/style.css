@@ -1,33 +1,38 @@
 * {
     margin: 0;
     padding: 0;
-}
+} 
 
 a {
     color: inherit;
     font-family: inherit;
     outline: none;
+    text-decoration: none;
 }
 
 body,
 html {
     height: 100%;
     margin: 0 auto;
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1 {
-    font-size: 1.35em;
+    font-size: 1.20em;
+    font-weight: inherit;
+    padding-bottom: 3%;
 }
 
 h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: inherit;
 }
 
 h3 {
     font-size: 1em;
     text-align: center;
     font-weight: 100;
+    padding-bottom: 3%;
 
 }
 
@@ -42,6 +47,7 @@ ol {
 
 ol > li > ul {
     margin-left: 1em;
+    list-style: none;
 }
 
 li a {
@@ -49,28 +55,21 @@ li a {
     color: inherit;
 }
 
-input,
-textarea,
-select {
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-    padding: 5px;
-    color: #5b5b5b;
-    width: 90%;
-}
-
 span {
     font-weight: bold;
 }
 
+img {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
 /* classes */
 
-.addSidebar {
-    margin: 0 auto;
-    float: right;
-    height: 950px;
+
+.bodyWrap {
+    width: 100%;
 }
 
 .bio {
@@ -78,46 +77,41 @@ span {
     padding: 10px;
 }
 
-.bodyWrap {
+.con {
+    margin: 5% auto;
     width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #d0d0d0;
+    border-top: 1px solid #d0d0d0;
+    padding: 3% 0;
+    float: left;
 }
 
-.btn {
-    padding: 3px;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-}
-
-.caption {
-    position: absolute;
-    left: 0;
+.con p {
+    margin: 0 auto;
+    max-width: 60%;
+    position: relative;
     top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
+    transform: translateY(-50%);
+    font-size: 1.5em;
 }
 
-.caption span.border {
-    background-color: #277646;
-    color: #fff;
-    padding: 18px;
-    font-size: 1em;
-    letter-spacing: 10px;
-    border-radius: 10px;
+.con img {
+    width: 200px;
 }
 
 .footer {
     height: 150px;
     bottom: 0;
     border-top: 2px solid #dfb363;
-    background-color: #820000;
+    background-image: linear-gradient(to right, #820000, #262626);
     /* background-color: #007add; */
     margin: 0px auto;
     width: 100%;
     height: 30%;
     z-index: 0;
     float: left;
+    font-size: .9em;
 }
 
 .footerWrap {
@@ -126,16 +120,24 @@ span {
     max-width: 1200px;
     float: none;
     color: #fff;
+}
 
+.half {
+    margin: 2%;
+    width: 46%;
+    position: relative;
+    float: left;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header {
     margin: 0px auto;
     width: 100%;
     height: 160px;
-    background-color: #9a0000;
+    background-image: linear-gradient(to right, #820000, #262626);
     border-bottom: 3px solid #dfb363;
-    /* background-color: #007add; */
+    color: #fff;
 }
 
 .headerWrap {
@@ -143,97 +145,163 @@ span {
     max-width: 1150px;
 }
 
-.infoCon {
-    margin: 2% auto;
+.hpPatcon {
+    display: block;
     width: 100%;
-    max-width: 1150px;
+    min-height: 700px;
+    background-image: url(../img/ban-breathe02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.leftSplit {
+.hpHeadcon {
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/ban-runner.jpg);
+    background-position: center top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.imgCon {
+    display: block;
+    width: 100%;
+}
+
+.imgCon img {
+    width: 100%;
+}
+
+.infoCon {
+    margin: 3% auto;
+    width: 100%;
+}
+
+.mainCon {
+    margin: 2% auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.mediaCon {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    z-index: -50;
+
+}
+
+.mediaCon iframe,
+.mediaCon object,
+.mediaCon embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.medInfo {
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 3%;
+
+}
+
+.officeStaff {
+    margin: 0 0 2% 0;
+    padding: 5%;
+    /* border-bottom: 1px solid grey; */
+    background-image: linear-gradient(#eaeaea, rgba(255, 255, 255, 0));
+    border-radius: 8px 8px 0 0;
+}
+
+/*  .pageTitle {
+    margin: 0 0 3% 0;
+    padding: 2%;
+    background-image: linear-gradient(#dfb363, rgba(255, 255, 255, 0)); 
+    font-size: 1.5em;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #dfb363ba;
+} */
+
+.pageTitle {
+    margin: 0 0 3% 0;
+    padding: 2%;
+    font-size: 1.5em;
+    border-radius: 8px;
+    border: 1px solid #dfb363ba;
+    text-align: center;
+}
+
+.pageTitle h1 {
+    padding-bottom: 0;
+}
+ 
+.serviceCon {
+    margin: 3% auto;
+    width: 100%;
+    height: 500px;
+}
+
+.sideBar {
+    margin: 2% auto;
+    width: 22%;
+    float: right;
+    min-height: 850px;
+}
+
+.sideLeft {
+    margin: 2% auto;
     width: 75%;
     float: left;
     min-height: 650px;
 }
 
-.leftSplit img {
-    width: 100%;
-    padding: 5% 0;
-}
-
-.staffWrap {
-    width: 75%;
-    float: left;
-}
-
-.sideCon ul li {
+.sideBar ul li {
     margin: 5% auto;
-    width: 200px;
-    padding: 8%;
-    /* background: linear-gradient(#9b9b9b, #313131);*/
-    background-color: #dfb363;
-    /* background-color: #007add; */
+    width: 85%;
+    padding: 6%;
+    background-image: linear-gradient(to right, #820000, #262626);
+    /* background-color: rgba(124, 124, 124, 0.48); */
     border-radius: 5px;
     display: block;
     color: #fff;
 }
 
-.sideCon ul a:hover {
+.sideBar ul a:hover {
     text-decoration: underline;
 }
 
-ul.socialicons {
-    list-style: none;
-    overflow: auto;
+.sideBar p {
+    line-height: 1.5em;
 }
 
-ul.socialicons li {
-    width: 32px;
-    height: 33px;
-    padding: 0 10px 0 0;
-    float: left;
-}
 
-ul.socialicons li a {
-    width: 32px;
-    height: 33px;
-    display: block;
-    background: url(/img/socicon.png) no-repeat;
-}
+/* test area */
 
-ul.socialicons li a.facebook {
-    background-position: 0 -224px;
-}
 
-ul.socialicons li a.facebook:hover {
-    background-position: 0 0;
-}
 
-ul.socialicons li a.googleplus {
-    background-position: -128px -224px;
-}
 
-ul.socialicons li a.googleplus:hover {
-    background-position: -128px 0;
-}
 
-ul.socialicons li a.blog {
-    background-position: -253px -267px;
-}
 
-ul.socialicons li a.blog:hover {
-    background-position: -253px -43px;
-}
 
-/* ids */
 
-#blockCo {
-    width: 45%;
-    float: left;
-}
 
-#blockTag {
-    width: 45%;
-    float: right;
+/* end test area */
+
+
+
+/* id */
+
+#bannerImg {
+    margin: 0 auto;
+    width: 100%;
+    height: 160px;
 }
 
 #bioPic {
@@ -243,11 +311,12 @@ ul.socialicons li a.blog:hover {
     padding: 15px 25px 0 25px;
 }
 
-#bioInfo {
-    width: 70%;
-    height: 250px;
-    float: left;
-    padding: 25px 0 0 0;
+#ccProviders {
+    margin: 0 auto;
+    height: 350px;
+    top: 20%;
+    position: relative;
+
 }
 
 #copyr {
@@ -259,232 +328,193 @@ ul.socialicons li a.blog:hover {
 
 #footAdd {
     margin: 35px auto;
-    width: 17%;
+    width: 20%;
     display: inline-block;
     padding: 10px;
     float: none;
 }
 
-#footLogo {
+#infoWrap {
+    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    max-width: 1000px;
+}
+
+#halfImg {
+    text-align: center;
+    float: right;
+}
+
+#hpHeadwrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 575px;
+}
+
+#hpHeadwrapbottom {
+    max-width: 1200px;
+    height: 50px;
+    position: relative;
+    bottom: -370px;
+}
+
+#hpHeadwraptop {
+    max-width: 1200px;
+    height: 150px;
+    position: inherit;
+    top: 0px;
+}
+
+#highLightinfo {
+    width: 35%;
+    padding: 5% 4%;
+    border: 1px solid #dfb363ba;
+    border-radius: 15px;
+    font-size: 1.25em;
+}
+
+#hpTopnav {
+    display: inline-block;
+    float: left;
+    padding: 1%;
+}
+
+#hpPatcare {
+    width: 30%;
+    max-height: 350px;
+    margin-top: 3%;
+    background-color: rgba(234, 234, 234, 0.29);
+    padding: 5%;
+    float: right;
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 2
+}
+
+#logofooter {
     margin: 10px auto;
     float: right;
     text-align: center;
 }
 
-#logo {
+#logoHeader {
     margin-top: 20px;
     float: left;
     z-index: 20;
 }
 
-#hours {
-    text-align: center;
-    width: 55%;
-    max-width: 800px;
-    background-color: #ebebeb;
-    padding: 20px;
-    height: 160px;
-    float: right;
-    /* box-shadow: 0 0 25px #888888; */
-    border-radius: 15px;
-}
-
-#hpTop {
-    background-image: url("/img/mc_bkg2.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-}
-
-#hpMid {
-    margin: 125px auto;
-    display: block;
-    width: 100%;
-    height: 300px;
-}
-
-#hpMidtwo {
-    margin: auto;
-    width: 80%;
-    height: 250px;
-}
-
-#hpBot {
-    margin: 50px;
-    text-align: center;
-}
-
-#hpBot img {
-    padding: 0 5% 0 5%;
-}
-
 #map {
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     height: 625px;
     float: left;
 }
 
-#officeLoc {
-    display: inline-block;
-    width: 23%;
-    height: 100px;
-    padding: 5px;
+#medPic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding-right: 2%;
+}
+
+#officeInfocon {
+    margin: 0 auto;
+    width: 550px;
+    height: 225px;
+    background-color: grey;
+    border: 1px solid #dfb363ba;
+}
+
+#officeInfo {
+    margin: 0 auto;
+    width: 300px;
+    height: 200px;
+    padding: 3%;
+    color: #fff;
+    font-size: 1.2em;
     float: left;
 }
 
-#officeLoc ul li {
-    font-size: 80%;
+#officeInfo a {
+    padding: 0;
 }
 
-#patCare {
-    width: 30%;
-    background-color: #ebebeb;
-    padding: 20px;
-    height: 160px;
-    float: left;
-    /* box-shadow: 0 0 25px #888888; */
-    border-radius: 15px;
+#officeInfomap {
+    margin: 0px auto;
+    width: 175px;
+    height: 250px;
+    float: right;
+}
+
+#policies {
+    margin: 3% auto;
+    padding: 2%;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
 }
 
 #portal {
     width: 100%;
-    height: 900px;
-}
-
-#title_block {
-    margin-top: 2%;
-    width: 400px;
-    float: right;
-    color: #ffffff;
-}
-
-#titleCo {
-    font-size: 3em;
-    margin: 5px auto;
-    letter-spacing: 8px;
-    font-size: 2em;
-    text-shadow: 2px 2px 4px #303030;
-}
-
-#titleName {
-    font-size: 1.25em;
-}
-
-#titleTag {
-    margin: 8px auto;
-    font-size: 1.75em;
-    letter-spacing: 1px;
-    text-align: right;
-    text-shadow: 2px 2px 4px #303030;
-}
-
-#socialmedia {
-    margin: -35px auto;
-    width: 15%;
-    float: right;
-}
-
-#serviceHighlite {
-    margin-right: 40px;
-    display: inline-block;
-    min-width: 25%;
-    height: 320px;
-    background-color: rgb(130, 0, 0);
-    /* background-color: #007add; */
-    color: #fff;
-    border-radius: 40px;
-}
-
-#serviceHighlite:last-child {
-    margin-right: 0;
-}
-
-#serviceInfo {
-    margin-top: 25px;
-    width: 90%;
-    padding: 10px;
+    height: 850px;
     float: left;
 }
 
-#servInfo {
-    margin-top: 20px;
-    width: 70%;
-    height: 150px;
-    text-align: left;
-    font-size: 1.25em;
+#serviceInfo {
+    margin: 5% auto;
+    width: 31%;
+    padding: 10px;
+    float: left;
+    text-align: center;
 }
 
-#telemedLink li {
-    display: inline-block;
-    padding: 2%;
+#serviceInfo ul li {
+    list-style-type: none;
 }
 
-#topDoclogo {
-    margin-top: 5%;
+#serviceInfo img {
+    width: 50%;
+    margin: 8%;
 }
 
-#welcome {
-    position: relative;
-    top: 20%;
-    left: 15%;
-    width: 45%;
-    padding: 5px;
-    font-size: 1.5em;
-    font-weight: bold;
-    letter-spacing: .1em;
-    color: #fff;
-    /* text-shadow: 0 0 10px #2d2d2d; */
+#serviceWrap {
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 500px;
 }
 
+#sideConimg {
+    text-align: center;
+    margin: 10% auto;
+}
 
+#title_block {
+    margin: 2.5% 1% 2% 2%;
+    float: left;
+    font-size: 1.1em;
+}
+
+#topDoccon img {
+    width: 100%;
+}
+
+#welcomeBan {
+    margin: 45px auto;
+    display: block;
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../img/ban-walking.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ 
 /* media queries */
 
 @media only screen and (max-width: 1024px)
 
 /* 1000 */
-    {
-
-    #bio {
-        width: 90%;
-        font-size: 1.25em;
-        height: 95%;
-    }
-
-    #hpMidtwo {
-        margin: 15px auto;
-        width: 100%;
-        height: 600px;
-    }
-
-    #hours {
-        margin: 25px auto;
-        width: 60%;
-        height: 225px;
-        padding: 25px;
-        float: none;
-        font-size: 1.15em;
-    }
-
-    #logo {
-        margin-left: 2%;
-    }
-
-    #patCare {
-        margin: 25px auto;
-        width: 60%;
-        height: 250px;
-        padding: 25px;
-        float: none;
-        font-size: 1.25em;
-    }
-
-    #welcome {
-        width: 60%;
-        letter-spacing: 0em;
-    }
-
-}
+    {}
 
 @media only screen and (max-width: 768px)
 
@@ -492,7 +522,7 @@ ul.socialicons li a.blog:hover {
     {
 
     h1 {
-        font-size: 1.15em;
+        text-align: center;
     }
 
     h3 {
@@ -501,69 +531,123 @@ ul.socialicons li a.blog:hover {
 
     p {
         padding: 5px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
-    .addSidebar {
-        float: none;
+
+    /* class */
+
+    .bio {
+        font-size: 1.25em;
+        text-align: left;
         height: inherit;
     }
 
+    .con {
+        height: 400px;
+    }
+
+    .con p {
+        max-width: 80%;
+    }
+
     .footer {
-        height: 150%;
+        height: 80%;
         margin: 50px auto;
+    }
+
+    .half {
+        margin: 2% auto;
+        left: 0;
+        width: 90%;
+        float: none;
+        position: inherit;
+        transform: none;
     }
 
     .header {
         height: 425px;
     }
 
+    .hpHeadcon {
+        height: 425px;
+        background-image: none;
+        background-image: linear-gradient(to right, #820000, #262626);
+        border-bottom: 3px solid #dfb363;
+    }
+
     .headerWrap {
         text-align: center;
     }
 
-    .leftSplit {
-        margin: 10px auto;
-        width: 90%;
-        float: none;
-        min-height: inherit;
-        font-size: 125%;
-
-    }
-
-    .sideCon {
-        margin: 0 auto;
-        width: 90%;
-    }
-
-    .sideCon p {
-        font-size: 1.25em;
-    }
-
-    .sideCon ul li {
-        font-size: 1.5em;
-        width: 80%;
-    }
-
-    .staffWrap {
-        margin: 10px auto;
-        width: 90%;
-        float: none;
-    }
-
-    .bio {
+    .hpPatcon {
+        margin: 3% 0 3% 0;
+        display: block;
         width: 100%;
-        font-size: 1.25em;
-        height: 95%;
+        min-height: inherit;
+        background-image: none;
+    }
+
+    .imgCon {
+        margin: 5% 0;
+    }
+
+    .infoCon {
+        margin: 10% auto;
+        float: none;
+    }
+
+    .mainCon {
+        margin: 20% 0;
+    }
+
+    .medInfo {
+        height: inherit;
+        border-bottom: 1px solid grey;
+    }
+
+    .pageTitle {
+        margin: 0 0 3% 0;
+        padding: 2%;
+        font-size: 1.5em;
+    }
+
+    .sideBar {
+        margin: 2% auto;
+        width: 80%;
+        float: none;
+    }
+
+    .sideBar p {
+        line-height: 1.5em;
+        font-size: 1.15em
+    }
+
+    .sideLeft {
+        margin: 10% auto;
+        width: 95%;
+        float: none;
+    }
+
+
+    /* id */
+
+
+    #bannerImg {
+        display: none;
     }
 
     #bioPic {
-        width: 90%;
-        ;
-        height: 95%;
+        width: 100%;
+        height: inherit;
         float: none;
         padding: 10px;
         text-align: center;
+    }
+
+    #ccProviders {
+        height: 0;
+        top: 0;
     }
 
     #footAdd {
@@ -573,117 +657,103 @@ ul.socialicons li a.blog:hover {
         text-align: center;
     }
 
-    #footLogo {
+    #logofooter {
+        float: none;
+    }
+
+    #logoHeader {
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    #infoWrap {
+        width: 100%;
+        margin: 25% auto;
+        height: 550px;
+    }
+
+    #halfImg {
+        left: 0%;
+        float: none;
+
+    }
+
+    #highLightinfo {
+        width: 70%;
+        font-size: 1.1em;
+    }
+
+    #hpHeadwrap {
+        height: inherit;
+    }
+
+    #hpHeadwrapbottom {
+        bottom: -237px;
+        background-color: none;
+    }
+
+    #hpPatcare {
+        width: 90%;
+        max-height: inherit;
+        padding: 5%;
+        float: none;
+        color: #000000;
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    #hpTopnav {
+        margin: 2% auto;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    #hpTopnav img {
+        text-align: center;
+    }
+
+    #logoFooter {
         margin: 10px auto;
         float: none;
         text-align: center;
     }
 
-    #hours {
-        margin: 25px auto;
-        width: 80%;
-        height: 450px;
-        padding: 15px;
+    #medPic {
+        margin: 0 auto;
         float: none;
-        font-size: 1.5em;
-    }
-
-    #hpTop {
-        width: 100%;
-        height: 375px;
-        opacity: .9;
-    }
-
-    #hpMid {
-        margin: 25px auto;
-        height: 975px;
-    }
-
-    #hpMidtwo {
-        margin: 50px auto;
-        width: 100%;
-        height: 800px;
-    }
-
-    #hpBot {
-        height: 500px;
-        margin: 0;
-    }
-
-    #hpBot img {
-        padding: 3%;
-    }
-
-    #logo {
-        width: 100%;
-    }
-
-    #map {
-        width: 90%;
-        float: none;
-    }
-
-    #officeLoc {
-        width: 100%;
-        padding: 5px;
-    }
-
-    #patCare {
-        margin: 25px auto;
-        width: 80%;
-        height: 250px;
-        padding: 15px;
-        float: none;
-        font-size: 1.45em;
-    }
-
-    #title_block {
-        margin-top: 15px;
-        width: 100%;
-    }
-
-    #titleName {
-        font-size: 1.5em;
-    }
-
-    #titlePhone {
-        font-size: 1.5em;
-    }
-
-    #socialmedia {
-        margin: 3px auto;
-        width: 40%;
-        float: left;
-        padding-left: 15px;
-    }
-
-    #serviceHighlite {
-        margin-right: 0px;
-        margin-bottom: 10px;
-        width: 80%;
-    }
-
-    #servInfo {
-        margin-top: 30px;
-        font-size: 1.75em;
-        text-align: center;
-    }
-
-    #telemedLink li {
-        width: 90%;
-        display: inline-block;
         padding: 2%;
     }
 
-
-    #welcome {
-        top: 20px;
-        left: 5%;
-        width: 90%;
-        font-size: 1.4em;
-        letter-spacing: 0em;
-        color: #fff;
-        text-shadow: 0 0 10px #2d2d2d;
+    #policies {
+        font-size: 1.2em;
     }
 
+    #serviceWrap {
+        width: 100%;
+        height: 1150px;
+    }
+
+    #serviceInfo {
+        width: 100%;
+    }
+
+    #serviceInfo ul li {
+        font-size: 1.5em;
+    }
+
+    #title_block {
+        margin: 1% auto;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 1.2em;
+
+    }
+
+    #welcomeBan {
+        width: 100%;
+        min-height: inherit;
+        background-image: none;
+    }
 }

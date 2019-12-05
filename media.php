@@ -1,27 +1,42 @@
-<? $title_tag = 'MedCorps Asthma & Pulmonary | Patient instructional videos'; ?>
-<? $pageMeta = 'Patient instructional videos'; ?>
+<? $title_tag = 'MedCorps Asthma & Pulmonary | INFO'; ?>
+<? $pageMeta = 'DISCRIPTION'; ?>
 <? $pageKeywords ='' ;?>
+
 <?php include '_header.php'; ?>
-<div class="infoCon">
-    <div class="leftSplit">
+
+<div class="mainCon">
+    <div class="sideLeft">
+
+        <h1 id="nosmokeing?">Creating a ChronicCare IQ account</h1>
+        <p>Welcome to patient monitoring, powered by ChronicCareIQ!</p><br>
+        <div class="mediaCon" id="chroniccareiqaccount">
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/LyqQM0W63d4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br>
+
+        <h1 id="nosmokeing?">Why Quit Smoking?</h1>
+        <p>Tobacco use remains the single largest preventable cause of death and disease in the United States. </p><br>
+        <div class="mediaCon" id="quitsmoking">
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/dUYRU8s2jsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br>
+
+        <h1 id="ChroniccareIQ?">What is Chroniccare IQ?</h1>
+        <p>ChronicCareIQ was created to empower patients to keep their doctors current and informed on their status.</p><br>
+        <div class="mediaCon" id="whatischroniccareiq">
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/txsZ5jcSSkc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br>
+
+        <h1 id="copd">COPD Diagnosis and Treatment options</h1><br>
+        <div class="mediaCon" id="copd">
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/71sk7S2gVrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> <br>
+
         <h1 id="homeSleeptest">ApneaLink Air Home Sleep Testing Device</h1>
         <p>This video explains the entire home sleep testing process, from start to finish, with ApneaLink Air from ResMed. It demonstrates exactly how to set up the ApneaLink Air device once you get home, and explains how to use it. </p><br>
-        
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/j6tchuK_2Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
-        
-        <center>
-           <!-- <ul id="telemedLink">
-                <li><a href="https://itunes.apple.com/us/app/chiron-health/id1028470045" target="_blank"><img src="img/but-itunes.png"></a></li>
-                <li><a href="https://play.google.com/store/apps/details?id=com.chironhealth.patients&hl=en_US" target="_blank"><img src="img/but-google-play.png"></a></li>
-                <li><a href="https://patients.chironhealth.com/patient_users/sign_in" target="_blank"><img src="img/but-chiron.png"></a></li>
-            </ul> -->
-        </center>
+        <div class="mediaCon" id="apnealink">
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/j6tchuK_2Kw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" allowfullscreen></iframe>
+        </div><br>
+
     </div>
-    <div class="addSidebar">
-        <?php include '_sidebar.php'; ?>
-    </div>
+    <?php include '_sidebar.php'; ?>
 </div>
-
-
 <?php include '_footer.php'; ?>
