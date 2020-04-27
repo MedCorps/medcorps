@@ -1,5 +1,5 @@
 <? $title_tag = 'MedCorps Asthma & Pulmonary | Cancellation Policy'; ?>
-<? $pageMeta = 'Cancellation Policy'; ?>
+<? $pageMeta = 'Medcorps Cancellation Policy'; ?>
 <? $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>
@@ -7,7 +7,7 @@
 <div class="mainCon">
     <div class="sideLeft">
         <div class="pageTitle">
-            <h1>Patient Appointment Cancellations and No Show Policy</h1>
+            <h1>Patient Appointment Cancellations and No Show Policy</h1> 
         </div><br>
 
         <h1>Cancellation Policy</h1><br>
@@ -18,23 +18,29 @@
             <li>Medcorps Asthma and Pulmonary Specialists requires at least 48 hour notice to cancel your appointment.</li>
             <li>10 minutes late for your appointment is considered a no show. </li>
         </ol><br>
-        <p>We may be able to accommodate late patients if time is available. This is determined on a case by case basis.</p><br>
 
-        <p>If patient reschedules a late canceled appointment;</p><br>
         <ul id="listItem">
-            <li>Cancellation will be document as a late cancel, not a rescheduled appointment and</li>
-            <li>$50 late fee will be assessed. Fee will be waived if patient is in hospital or ER, documentation is to be sent to our office. Fee will not be waived for transportation issues, not getting day off from work, oversleeping, forgetting appointment, etc.</li>
-            <li>Payment of late fee will be collected at the next appointment.Failure to pay late fees will result in dismissal from practice</li>
+            <li>We may be able to accommodate late patients if time is available. This is determined on a case by case basis.</li>
+            <li>$50 late fee will be assessed;</li>
+            <ul>
+                <li>Fee will be waived if patient is in hospital or ER, documentation is to be sent to our office.</li>
+                <li>Fee will not be waived for transportation issues, not getting day off from work, oversleeping, forgetting appointment, having another doctor appointment etc.</li>
+            </ul>
+            <li>Payment of late fee will be collected at the next appointment.</li>
+            <ul>
+                <li>Failure to pay late fees will result in dismissal from practice</li>
+            </ul>
             <li>Rescheduling a late cancel appointment does not negate the late cancel fee.</li>
-            <li>Our office not being able to confirm your appointment does not negate the late cancel fee.</li>
+            <li>Our office not being able to confirm your appointment does not negate the late cancel fee</li>
         </ul><br>
 
-        <p>After 2 incidents of late cancellations and/ or no shows, patients will be placed on same day appointment status for 6 months.</p><br>
+        <p>After 2 incidents of late cancelations and/ or no shows for new patient appointments you will not be rescheduled with any of our offices.</p><br>
+        <p>After 3 incidents of late cancelations and/ or no shows for follow up appointments, you will not be rescheduled with any of our offices.</p><br>
 
         <!-- <p>Please call at least 48 hours before your office visit to cancel an appointment. You may be assessed a missed appointment fee if you cancel with less than 48 hours notice or you miss an appointment completely. Missed appointment fee is $50.00</p><br> -->
 
 
-        <h1>Same Day Appointment Status</h1><br>
+        <!-- <h1>Same Day Appointment Status</h1>
 
         <p>When you have two incidents of cancellations with less than 48 hour notice given, been late and/or have not showed up for your scheduled appointments. The same day appointment policy is an alternative to being dismissed from Medcorps Asthma and Pulmonary Specialists practice.</p><br>
 

@@ -1,5 +1,5 @@
 <? $title_tag = 'MedCorps Asthma & Pulmonary | Chronic Care IQ'; ?>
-<? $pageMeta = 'ChronicCare IQ managed health care'; ?>
+<? $pageMeta = 'Medcorps now provides ChronicCare IQ managed health care ChronicCare IQ works to reduce the amount of in-office doctor visits and hospitalizations. Remotely monitors and records changes in your health condition(s) over time.'; ?>
 <? $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>
@@ -14,7 +14,7 @@
                 <h3>What is ChronicCare IQ?</h3>
                 <p>ChronicCare IQ helps your doctor deliver the highest level of care for their patients through chronic care management, remote patient monitoring, and transitional care management.</p>
             </div>
-            <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
+            <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank" rel="noopener"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
             </div>
         </div>
 

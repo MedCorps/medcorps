@@ -1,5 +1,5 @@
 <? $title_tag = 'MedCorps Asthma & Pulmonary | Service Animal Policy'; ?>
-<? $pageMeta = 'Service Animal Policy'; ?>
+<? $pageMeta = 'Medcorps Service Animal Policy'; ?>
 <? $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>

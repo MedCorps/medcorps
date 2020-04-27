@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127204491-1"></script>
@@ -14,7 +15,9 @@
 
     </script>
 
-    <title>MedCorps Asthma &amp; Pulmonary</title>
+    <title>Medcorps Asthma &amp; Pulmonary Specialists MedCorps</title>
+    <meta name="description" content="MedCorps Asthma & Pulmonary treats ailments of the lungs and respiratory system. Such as sleep apnea, asthma, pneumonia, tuberculosis, emphysema, and COPD">
+    <meta name="keywords" content="Sleep Apnea,COPD,Asthma,Bronchitis,ARDS,Cystic Fibrosis,Interstitial Lung Disease,Lung Cancer,Occupational Lung Disease,Pulmonary Hypertension,Sarcoidosis Lungs,Peter J. Saccone - DO,Allen Silvey - DO">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" />
@@ -48,7 +51,29 @@
         </div>
     </div>
 
-    <?php include '_nav.php'; ?>
+    <?php include '_nav.php'; ?> 
+
+    <div class="infoCon" id="telemed">
+        <div class="half">
+            <div class="pageTitle">Telemedicine Appointments</div>
+            <p>In an effort to help reduce the spread of the Corona or COVID-19 virus, Medcorps is now taking Telemedicine appointments. Telemedicine holds the promise to significantly impact some of the most challenging problems of our current healthcare crisis. Give us a call today to setup an appointment.</p><br>
+            <a href="telemedicine.php"><img src="img/but-telemed.png"></a>
+        </div>
+        <div class="half" id="teleImg"><img src="img/ban-telemed.jpg"></div>
+    </div>
+
+    <div class="infoCon" style="background-color: #141414;">
+        <div id="corona">
+            <div class="half" id="">
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/videoseries?list=PLWhkRDequAjo4pbT2GLr49hdgIszNGP7G" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="half" id="covidImg">
+                <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-in-us.html" target="_blank"><img src="img/ban-corona-half.jpg" alt="corona virus update"></a>
+            </div>
+        </div>
+    </div>
+
+    <?php include '_socialMedia.php'; ?>
 
     <div class="infoCon" id="welcomeBan">
         <div id="hpPatcare">
@@ -103,7 +128,7 @@
             <h3>What is ChronicCare IQ?</h3>
             <p>ChronicCare IQ helps your doctor deliver the highest level of care for their patients through chronic care management, remote patient monitoring, and transitional care management.</p>
         </div>
-        <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
+        <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank" rel="noopener"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
         </div>
     </div>
 
@@ -115,9 +140,9 @@
     </div>
 
     <div class="infoCon" id="infoWrap">
-        <div class="half" id="teleMedimg"><img src="img/ele-telemed.png"></div>
+        <div class="half" id="teleMedimg"><img src="img/ele-telemed.png" alt="telemed cellphone"></div>
         <div class="half" id="highLightinfo">
-            <h1>Telemedicine</h1>
+            <h1>In-office Telemedicine Appointments</h1>
             <p>Located in our Kentucky Office, telemedicine is a fast and convenient way to better serve the Maysville KY area with a personal and family touch. Call the Kentucky office to setup an appointment today.<br>(606) 759-9424</p>
         </div>
     </div>

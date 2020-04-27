@@ -1,5 +1,5 @@
 <? $title_tag = 'MedCorps Asthma & Pulmonary | Payment Policy'; ?>
-<? $pageMeta = 'Payment Policy'; ?>
+<? $pageMeta = 'Medcorps Payment Policy'; ?>
 <? $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>

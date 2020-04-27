@@ -1,5 +1,5 @@
 <? $title_tag = 'MedCorps Asthma & Pulmonary | The Medcorps Crew'; ?>
-<? $pageMeta = 'The Medcorps Crew'; ?>
+<? $pageMeta = 'Met the Medcorps Crew'; ?>
 <? $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>
@@ -60,11 +60,10 @@
 
             <div id="bioPic"><img src="img/staff-debbiev.jpg" alt="Debbie Voorhees - Reception" /></div>
             <div class="bio">
-                <h1>Debbie Voorhees - CMA, CPT, and CMBS</h1>
+                <h1>Debbie McFadden - CMA, CPT, and CMBS</h1>
                 <p>I became part of the Medcorps family in 2017. I am the billing/office manager of the Sewell office. I am a certified medical assistant, phlebotomist and medical insurance claims billing specialist. I am also a NJ state licensed notary. I currently live in south Jersey with my 3 sons who keep me extremely busy and young. I enjoy traveling and spending time with my sons whenever I have spare time. I look forward to meeting you and welcoming you part of our Medcorps family.</p>
             </div>
         </div>
-
 
         <div class="officeStaff" id="linwood">
             <h1>LINWOOD OFFICE</h1><br>
@@ -82,7 +81,6 @@
             </div>
         </div>
 
-
         <div class="officeStaff" id="capemay">
             <h1>CAPE MAY COURT HOUSE OFFICE</h1>
             <div id="bioPic"><img src="img/staff-nikki.jpg" alt="Nikki - RN" /></div>
@@ -91,7 +89,20 @@
                 <p>I am a Registered Nurse at MedCorps Asthma and Pulmonary. I graduated from Atlantic Cape Community College with my Associates in the Applied Science of Nursing and have many years of hands-on experience in a wide variety of positions. Some of those range from working on Medical/Surgical and Progressive Cardiac Units in the hospital to Sub-Acute Rehabilitation and Wound Care. Outside of work, I enjoy spending time with my family and two amazing sons. I have been a part of the South Jersey community my entire life and am blessed to be able to assist you in your healthcare! I look forward to meeting you here at MedCorps! </p><br>
             </div>
 
-            <div id="bioPic"><img src="img/staff-denise.jpg" alt="Denise - BS,RRT,RPFT" /></div>
+            <div id="bioPic"><img src="img/staff-sig.jpg" alt="Sigrid Stiefel  - LPN" /></div>
+            <div class="bio">
+                <h1 id="">Sigrid "Siggy" Stiefel - LPN</h1>
+                <p>I am the Licensed Practical Nurse in the Cape May Court House Office. I’ve been a LPN for 10 years now graduating in 2010 from Cape May County Technical School for Practical Nursing. I am a certified LPN in Cardiac/Pulmonary as well as many other certifications I’ve obtained while working at local Genesis facilities. My background is mostly SNF/Rehab nursing, and I still work per diem at Genesis Court House Center where Dr.Silvey is the Pulmonologist. I know many of the patient’s already that come into our CMCH office through working at local SNF and living in Cape May County for my entire life! On my time off I enjoy spending time with my 3 kids! My heart has always been with helping people that’s why I became a Nurse! I looking forward to making you laugh and smile while assisting you with all your nursing needs!</p><br>
+            </div>
+
+            <div id="bioPic"><img src="img/staff-rachel.jpg" alt="Rachel Buckchetsky - LPN" /></div>
+            <div class="bio">
+                <h1 id="">Rachel Buckchetsky - LPN</h1> 
+                <p>I graduated in 2012 from Cape May County Technical school with my LPN. I have been working in skilled nursing facilities mostly on subacute rehab units but am also experienced with long term/ dementia patients.  When I’m not working I enjoy spending time with my daughter and family. The beach is my favorite part of growing up and living in Cape May County. I look forward to meeting everyone and assisting you with your needs!</p><br>
+            </div>
+
+
+            <div id="bioPic"><img src="img/staff-denise.jpg" alt="Denise - BS,RRT,RPFT" /></div> 
             <div class="bio">
                 <h1 id="">Denise McGinly - BS,RRT,RPFT</h1>
                 <p>I started my career in Respiratory Care in Philadelphia back in the early 1980’s. Over my career I have accomplished the following credentials: Registered Respiratory Therapist, Registered Pulmonary Function Technologist and my Bachelors degree in Healthcare Management. My experiences have included: Patient Care (primarily in the ICU), Pulmonary Rehabilitation, Research, Clinical Education for Respiratory students, staff and Residents at University Hospitals as well as Supervisor of Respiratory Care and Director of Respiratory Care, Cardiology and Neurology. My work experiences have been with Medical College of Pennsylvania, St. Christopher’s Hospital for Children, Virtua Health, Cooper University Hospital and Cape Regional Medical Center. I joined Medcorps Asthma and Pulmonary in September 2018 and I am extremely happy to be part of this team. Looking forward to meeting you.</p><br>

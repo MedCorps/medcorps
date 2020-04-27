@@ -19,6 +19,7 @@ nav ul {
     margin: 0;
     list-style: none;
     position: relative;
+    z-index: 600;
 }
 
 nav ul li {
@@ -26,7 +27,7 @@ nav ul li {
     display: inline-block;
     float: left;
     font-size: 80%;
-    width: 14%;
+    width: 12%;
     
 }
 
@@ -100,14 +101,13 @@ nav ul li ul  {
 }
 .navWrap {
     margin: 0 auto;
-    z-index: 200;
     width: 100%;
     float: left;
 }
 
 #navBar {
     margin: 0 auto;
-    max-width: 1150px;
+    max-width: 1200px;
 
 }
 

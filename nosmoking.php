@@ -19,9 +19,11 @@
         </div>
 
         <div class="mediaCon">
-            <h1 id="nosmokeing?">Why Quit Smoking?</h1>
-            <p>Tobacco use remains the single largest preventable cause of death and disease in the United States. </p><br>
-            <iframe width="100%" height="450" src="https://www.youtube.com/embed/dUYRU8s2jsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <h1 id="nosmokeing?">Why Quit Smoking?</h1>
+        <p>Tobacco use remains the single largest preventable cause of death and disease in the United States. </p><br>
+        <div class="mediaCon" id="quitsmoking">
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/dUYRU8s2jsc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br>
         </div><br>
     </div>
     <?php include '_sidebar.php'; ?>

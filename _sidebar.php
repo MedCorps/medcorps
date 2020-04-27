@@ -2,46 +2,73 @@
     <div id="sideCon">
         <h3>LOCATIONS / HOURS</h3>
         <h3>Click for Info</h3>
-        <ul>
-            <a href="dirsewell.php" title="Click for Directions">
-                <li>Sewell NJ</li>
-            </a>
-            <p>Monday - Friday</p>
-            <p>9am - 4pm</p>
-            <p>(856) 352-6572</p>
-            <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></p>
-            <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></p>
-            <br>
 
-            <a href="dirlinwood.php" title="Click for Directions">
-                <li>Linwood NJ</li>
-            </a>
-            <p>Mon - Wed 9am - 4pm</p>
-            <p>Thursday 9am - 1pm</p>
-            <p>(609) 788-8953</p>
-            <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></p>
-            <p><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway - PA-C</a></p>
-            <br>
+        <div id="sideAdd">
+            <a id="sideAddtitle" href="dirsewell.php" title="Click for Directions">Sewell NJ</a>
+            <ul>
+                <li>Monday - Friday</li>
+                <li>9am - 4pm</li>
+                <li>(856) 352-6572</li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></li>
+                <li><span>- Every Other Tuesday</span></li>
+                <li><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></li>
+                <li><span>- Monday, Tuesday, Thursday, Friday</span></li>
+            </ul>
+        </div>
 
-            <a href="dircapemay.php" title="Click for Directions">
-                <li>Cape May Court House NJ</li>
-            </a>
-            <p>Thursday - 9am - 1pm</p>
-            <p>Friday - 9am - 1pm</p>
-            <p>Every other Tuesday - Call</p>
-            <p>(609) 778-2744</p>
-            <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></p>
+        <div id="sideAdd">
+            <a id="sideAddtitle" href="dirlinwood.php" title="Click for Directions">Linwood NJ</a>
+            <ul>
+                <li>Mon - Wed 9am - 4pm</li>
+                <li>Thursday 9am - 1pm</li>
+                <li>(609) 788-8953</li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></li>
+                <li><span>- Monday &amp; Wednesday Morning</span></li>
+                <li><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></li>
+                <li><span>- Wednesday Afternoon</span></li>
+                <li><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway - PA-C</a></li>
+                <li><span>- Tuesday &amp; Thursday</span></li>
+            </ul>
+        </div>
 
-            <a href="dirkentucky.php" title="Click for Directions">
-                <li>Maysville KY</li>
-            </a>
-            <p>Monday - Friday</p>
-            <p>8:30am - 4:30pm</p>
-            <p>Call about certain weekend hours</p>
-            <p>(606) 759-9424</p>
-            <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></p>
-            <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></p>
-        </ul><br>
+        <div id="sideAdd">
+            <a id="sideAddtitle" href="dircapemay.php" title="Click for Directions">Cape May Court House NJ</a>
+            <ul>
+                <li>Thursday - 10am - 4pm</li>
+                <li>Friday - 9am - 4pm</li>
+                <li>Every other Tuesday - Call</li>
+                <li>(609) 778-2744</li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></li>
+                <li><span>- Thursday &amp; Friday</span></li>
+            </ul>
+        </div>
+
+        <div id="sideAdd">
+            <a id="sideAddtitle" href="dirkentucky.php" title="Click for Directions">Maysville KY</a>
+            <ul>
+                <li>Monday - Friday</li>
+                <li>9am - 4pm</li>
+                <li>Call about certain weekend hours</li>
+                <li>(606) 759-9424</li>
+            </ul>
+            <hr>
+            <ul>
+                <li><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></li>
+                <li></li>
+                <li><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></li>
+                <li></li>
+            </ul>
+        </div>
+
         <div id="sideConimg">
             <div id="topDoclogo"><a href="topdoc.php"><img src="img/topdoc-logo.jpg" alt="top doc logo"></a>
             </div>

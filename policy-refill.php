@@ -1,5 +1,5 @@
 <? $title_tag = 'MedCorps Asthma & Pulmonary | Refill Policy'; ?>
-<? $pageMeta = 'Refill Policy'; ?>
+<? $pageMeta = 'Medcorps Refill Policy'; ?>
 <? $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>

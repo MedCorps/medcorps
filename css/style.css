@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-} 
+}
 
 a {
     color: inherit;
@@ -33,7 +33,12 @@ h3 {
     text-align: center;
     font-weight: 100;
     padding-bottom: 3%;
+}
 
+hr {
+    width: 95%;
+    margin: 4% auto;
+    color: #d0d0d0;
 }
 
 p {
@@ -50,13 +55,18 @@ ol > li > ul {
     list-style: none;
 }
 
+ul li {
+    list-style: none;
+}
+
 li a {
     list-style: none;
     color: inherit;
 }
 
 span {
-    font-weight: bold;
+    font-size: .9em;
+    color: inherit;
 }
 
 img {
@@ -101,7 +111,6 @@ img {
 }
 
 .footer {
-    height: 150px;
     bottom: 0;
     border-top: 2px solid #dfb363;
     background-image: linear-gradient(to right, #820000, #262626);
@@ -123,12 +132,19 @@ img {
 }
 
 .half {
-    margin: 2%;
+    margin: 0 2%;
     width: 46%;
     position: relative;
     float: left;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.halfBlock {
+    padding: 2%;
+    width: 45%;
+    height: 100px;
+    display: inline-block;
 }
 
 .header {
@@ -157,8 +173,8 @@ img {
 .hpHeadcon {
     margin: 0 auto;
     width: 100%;
-    height: 600px;
-    background-image: url(../img/ban-runner.jpg);
+    height: 500px;
+    background-image: url(../img/ban-medcorps-01.jpg);
     background-position: center top;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -190,8 +206,7 @@ img {
     padding-top: 30px;
     height: 0;
     overflow: hidden;
-    z-index: -50;
-
+    z-index: 50;
 }
 
 .mediaCon iframe,
@@ -222,7 +237,7 @@ img {
 /*  .pageTitle {
     margin: 0 0 3% 0;
     padding: 2%;
-    background-image: linear-gradient(#dfb363, rgba(255, 255, 255, 0)); 
+    background-image: linear-gradient(#dfb363, rgba(255, 255, 255, 0));
     font-size: 1.5em;
     color: #fff;
     border-radius: 8px 8px 0 0;
@@ -241,7 +256,7 @@ img {
 .pageTitle h1 {
     padding-bottom: 0;
 }
- 
+
 .serviceCon {
     margin: 3% auto;
     width: 100%;
@@ -262,23 +277,24 @@ img {
     min-height: 650px;
 }
 
-.sideBar ul li {
-    margin: 5% auto;
-    width: 85%;
-    padding: 6%;
-    background-image: linear-gradient(to right, #820000, #262626);
-    /* background-color: rgba(124, 124, 124, 0.48); */
-    border-radius: 5px;
-    display: block;
-    color: #fff;
+.third {
+
+    width: 28%;
+    height: 225px;
+    display: inline-block;
 }
 
-.sideBar ul a:hover {
-    text-decoration: underline;
+.thirdBlock {
+    width: 30%;
+    height: 100px;
+    display: inline-block;
 }
 
-.sideBar p {
-    line-height: 1.5em;
+.third,
+.halfBlock p {
+    position: relative;
+    top: 30%;
+    transform: translate(0, -50%)
 }
 
 
@@ -287,16 +303,14 @@ img {
 
 
 
-
-
-
-
-
 /* end test area */
 
 
-
 /* id */
+
+#appStore {
+    text-align: center;
+}
 
 #bannerImg {
     margin: 0 auto;
@@ -324,6 +338,15 @@ img {
     text-align: center;
     font-size: .75em;
     float: left;
+}
+
+#corona,
+#coronaInfo {
+    margin: 2% auto;
+    width: 90%;
+    height: 525px;
+    background-color: #141414;
+    text-align: center;
 }
 
 #footAdd {
@@ -392,6 +415,11 @@ img {
     line-height: 2
 }
 
+#listItem ul li {
+    list-style: circle;
+    margin-left: 2em;
+}
+
 #logofooter {
     margin: 10px auto;
     float: right;
@@ -420,15 +448,15 @@ img {
 
 #officeInfocon {
     margin: 0 auto;
-    width: 550px;
-    height: 225px;
+    width: 575px;
+    min-height: 280px;
     background-color: grey;
     border: 1px solid #dfb363ba;
 }
 
 #officeInfo {
     margin: 0 auto;
-    width: 300px;
+    width: 350px;
     height: 200px;
     padding: 3%;
     color: #fff;
@@ -443,7 +471,7 @@ img {
 #officeInfomap {
     margin: 0px auto;
     width: 175px;
-    height: 250px;
+    height: 310px;
     float: right;
 }
 
@@ -484,9 +512,37 @@ img {
     height: 500px;
 }
 
+#sideAdd {
+    margin: 10% auto;
+    width: 100%;
+    line-height: 1.5em;
+}
+
+#sideAddtitle {
+    margin: 5% auto;
+    padding: 6%;
+    background-image: linear-gradient(to right, #820000, #262626);
+    border-radius: 5px;
+    display: block;
+    color: #fff;
+}
+
 #sideConimg {
     text-align: center;
     margin: 10% auto;
+}
+
+#socialCon {
+    margin: 10% auto;
+    width: 80%;
+    height: 153px;
+    text-align: center;
+}
+
+#telemed {
+    margin: 2% auto;
+    width: 90%;
+    height: 500px;
 }
 
 #title_block {
@@ -503,12 +559,12 @@ img {
     margin: 45px auto;
     display: block;
     width: 100%;
-    min-height: 700px;
+    min-height: 550px;
     background-image: url(../img/ban-walking.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
 }
- 
+
 /* media queries */
 
 @media only screen and (max-width: 1024px)
@@ -530,15 +586,14 @@ img {
     }
 
     p {
-        padding: 5px;
         font-size: 1.2em;
+        padding: 2%;
     }
 
 
     /* class */
 
     .bio {
-        font-size: 1.25em;
         text-align: left;
         height: inherit;
     }
@@ -552,8 +607,9 @@ img {
     }
 
     .footer {
-        height: 80%;
+        height: 100%;
         margin: 50px auto;
+        background-image: linear-gradient(to bottom, #820000, #262626);
     }
 
     .half {
@@ -565,14 +621,21 @@ img {
         transform: none;
     }
 
+    .halfBlock {
+        padding: 4%;
+        width: 90%;
+        height: 150px;
+    }
+
     .header {
         height: 425px;
+        background-image: linear-gradient(to top, #820000, #262626);
     }
 
     .hpHeadcon {
         height: 425px;
         background-image: none;
-        background-image: linear-gradient(to right, #820000, #262626);
+        background-image: linear-gradient(to top, #820000, #262626);
         border-bottom: 3px solid #dfb363;
     }
 
@@ -629,9 +692,30 @@ img {
         float: none;
     }
 
+    .thirdBlock {
+        width: 90%;
+    }
+
+
+    /* mobile test area */
+
+
+    #coronaInfo {
+        margin: 0 auto;
+        width: 100%;
+        height: inherit;
+        background-color: #141414;
+        text-align: center;
+    }
+
+    #coronaInfo img {
+        width: 75%;
+    }
+
+    /* mobile test area */
+
 
     /* id */
-
 
     #bannerImg {
         display: none;
@@ -648,6 +732,19 @@ img {
     #ccProviders {
         height: 0;
         top: 0;
+    }
+
+    #corona {
+        width: 100%;
+        float: left;
+        height: 900px;
+
+    }
+
+    #covidImg img {
+        margin: 0 auto;
+        left: 0%;
+        width: 95%;
     }
 
     #footAdd {
@@ -740,6 +837,32 @@ img {
 
     #serviceInfo ul li {
         font-size: 1.5em;
+    }
+
+    #sideAdd ul li {
+        font-size: 1.15em;
+        line-height: 1.5;
+    }
+
+    #socialCon {
+        height: 400px;
+        float: left;
+        width: 100%;
+    }
+
+    #telemed {
+        margin: 2% auto;
+        width: 100%;
+        height: 450px;
+        float: left;
+    }
+
+    #telemed img {
+        width: 100%;
+    }
+
+    #teleImg {
+        display: none;
     }
 
     #title_block {

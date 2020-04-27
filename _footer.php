@@ -23,7 +23,7 @@
         <div id="logofooter">
             <a href="index.php"><img src="img/logo.png" alt="medcorps logo" /></a><br>
         </div>
-        <div id="copyr" style="text-align:center;">©2019 MedCorps</div>
+        <div id="copyr" style="text-align:center;">© MedCorps</div>
     </div>
 </div> <!-- end of footer container -->
 
