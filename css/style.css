@@ -326,11 +326,16 @@ img {
 }
 
 #ccProviders {
-    margin: 0 auto;
-    height: 350px;
-    top: 20%;
+    margin: 5% auto;
+    top: 25%;
     position: relative;
+}
 
+#ccProverimg {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+  font-size: 12px;
 }
 
 #copyr {
@@ -532,6 +537,12 @@ img {
     margin: 10% auto;
 }
 
+#sideConimg img {
+  padding: 4% 0;
+  text-align: center;
+  width: 100%;
+}
+
 #socialCon {
     margin: 10% auto;
     width: 80%;
@@ -699,18 +710,13 @@ img {
 
     /* mobile test area */
 
+    #ccProverimg {
 
-    #coronaInfo {
-        margin: 0 auto;
-        width: 100%;
-        height: inherit;
-        background-color: #141414;
-        text-align: center;
+      width: 45%;
+
     }
 
-    #coronaInfo img {
-        width: 75%;
-    }
+
 
     /* mobile test area */
 
@@ -730,9 +736,11 @@ img {
     }
 
     #ccProviders {
-        height: 0;
+        height: 1000px;
         top: 0;
     }
+
+
 
     #corona {
         width: 100%;
@@ -746,6 +754,19 @@ img {
         left: 0%;
         width: 95%;
     }
+
+    #coronaInfo {
+        margin: 0 auto;
+        width: 100%;
+        height: inherit;
+        background-color: #141414;
+        text-align: center;
+    }
+
+    #coronaInfo img {
+        width: 75%;
+    }
+
 
     #footAdd {
         margin: 15px auto;
@@ -766,7 +787,7 @@ img {
     #infoWrap {
         width: 100%;
         margin: 25% auto;
-        height: 550px;
+        min-height: 750px;
     }
 
     #halfImg {

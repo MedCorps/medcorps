@@ -51,7 +51,7 @@
         </div>
     </div>
 
-    <?php include '_nav.php'; ?> 
+    <?php include '_nav.php'; ?>
 
     <div class="infoCon" id="telemed">
         <div class="half">
@@ -77,7 +77,7 @@
 
     <div class="infoCon" id="welcomeBan">
         <div id="hpPatcare">
-            <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr.</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone</a> welcome you to MedCorps Asthma and Pulmonary. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and now serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary treats pulmonary disease and sleep disorders.</p>
+            <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr.</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone</a> welcome you to MedCorps Asthma and Pulmonary. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and also serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary treats pulmonary disease and sleep disorders.</p>
         </div>
     </div>
 

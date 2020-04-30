@@ -26,27 +26,13 @@
         <div id="infoWrap">
             <div id="ccProviders">
                 <h3>The Medcorps ChronicCare IQ healthcare team is here to help with your questions</h3>
-                <div class="" id="ccProverimg">
-                    <img src="img/staff_carolyn.jpg" alt="staff image - carolyn">
-                    <p>Carolyn Silvey - RN</p>
-                </div>
-
-                <div class="" id="ccProverimg">
+                <div class="half" id="halfImg">
                     <img src="img/staff-alyssa.jpg" alt="staff image - alyssa">
                     <p>Alyssa Crabtree - LPN </p>
                 </div>
-
-                <div class="" id="ccProverimg">
-                    <img src="img/staff-nikki.jpg" alt="staff image - Nicole Patroni">
-                    <p>Nicole Patroni - RN</p>
-                </div>
-                <div class="" id="ccProverimg">
-                    <img src="img/staff-rachel.jpg" alt="staff image - Rachel Buckchetsky - LPN">
-                    <p>Rachel Buckchetsky - LPN</p>
-                </div>
-                <div class="" id="ccProverimg">
-                    <img src="img/staff-sig.jpg" alt="staff image - Sigrid "Siggy" Stiefel - LPN">
-                    <p>Sigrid "Siggy" Stiefel - LPN</p>
+                <div class="half" id="halfImg">
+                    <img src="img/staff_carolyn.jpg" alt="staff image - carolyn">
+                    <p>Carolyn Silvey - RN</p>
                 </div>
             </div>
         </div>
