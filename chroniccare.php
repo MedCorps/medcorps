@@ -11,7 +11,7 @@
 
         <div id="infoWrap">
             <div class="half" id="highLightinfo">
-                <h3>What is ChronicCare IQ?</h3>
+                <!-- <h3>What is ChronicCare IQ?</h3> -->
                 <p>ChronicCare IQ helps your doctor deliver the highest level of care for their patients through chronic care management, remote patient monitoring, and transitional care management.</p>
             </div>
             <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank" rel="noopener"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
@@ -45,8 +45,8 @@
                     <p>Rachel Buckchetsky - LPN</p>
                 </div>
                 <div class="" id="ccProverimg">
-                    <img src="img/staff-sig.jpg" alt="staff image - Sigrid "Siggy" Stiefel - LPN">
-                    <p>Sigrid "Siggy" Stiefel - LPN</p>
+                    <img src="img/staff-susan-fulton.jpeg" alt="staff image - Susan Fulton - LPN">
+                    <p>Susan Fulton - LPN</p>
                 </div>
             </div>
         </div>

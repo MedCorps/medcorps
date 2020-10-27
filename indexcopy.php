@@ -15,7 +15,7 @@
 
     </script>
 
-    <title>Asthma &amp; Pulmonary Specialists MedCorps</title>
+    <title>Medcorps Asthma &amp; Pulmonary Specialists MedCorps</title>
     <meta name="description" content="MedCorps Asthma & Pulmonary treats ailments of the lungs and respiratory system. Such as sleep apnea, asthma, pneumonia, tuberculosis, emphysema, and COPD">
     <meta name="keywords" content="Sleep Apnea,COPD,Asthma,Bronchitis,ARDS,Cystic Fibrosis,Interstitial Lung Disease,Lung Cancer,Occupational Lung Disease,Pulmonary Hypertension,Sarcoidosis Lungs,Peter J. Saccone - DO,Allen Silvey - DO">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,11 +73,19 @@
         </div>
     </div>
 
-    <?php include '_socialMedia.php'; ?>
+    <div class="infoCon" id="foodBank">
+        <div class="half">
+            <div class="pageTitle">Food Bank of South Jersey</div>
+            <p>Many families throughout the South Jersey are finding it difficult to put food on the table. Medcorps is committed to help those in our community that are struggling at this time. Please join us in assisting the Food Bank of South Jersey. Together we can help others breathe.<a href="http://donate.foodbanksj.org/medcorps" target="_blank"> Click HERE to donate.</a></p><br>
+        </div>
+        <div class="half" id=""><a href="http://donate.foodbanksj.org/medcorps" target="_blank"><img src="img/ban-foodbank2.jpg"></a></div>
+    </div>
+
+    <!-- <?php include '_socialMedia.php'; ?> -->
 
     <div class="infoCon" id="welcomeBan">
         <div id="hpPatcare">
-            <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr.</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone</a> welcome you to MedCorps Asthma and Pulmonary. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and now serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary treats pulmonary disease and sleep disorders.</p>
+            <p><a href="staff.php#allen" title="Click for Bio">Dr. Allen L. Silvey, Jr.</a> and <a href="staff.php#peter" title="Click for Bio">Dr. Peter J. Saccone</a> welcome you to MedCorps Asthma and Pulmonary. We are conveniently located in <a href="dirsewell.php" title="Click for Directions">Sewell</a>, <a href="dircapemay.php" title="Click for Directions">Cape May Court House</a>, <a href="dirlinwood.php" title="Click for Directions">Linwood</a> New Jersey and also serving the Maysville KY area. MedCorps Asthma &amp; Pulmonary treats pulmonary disease and sleep disorders.</p>
         </div>
     </div>
 
@@ -142,7 +150,7 @@
     <div class="infoCon" id="infoWrap">
         <div class="half" id="teleMedimg"><img src="img/ele-telemed.png" alt="telemed cellphone"></div>
         <div class="half" id="highLightinfo">
-            <h1>Telemedicine</h1>
+            <h1>In-office Telemedicine Appointments</h1>
             <p>Located in our Kentucky Office, telemedicine is a fast and convenient way to better serve the Maysville KY area with a personal and family touch. Call the Kentucky office to setup an appointment today.<br>(606) 759-9424</p>
         </div>
     </div>

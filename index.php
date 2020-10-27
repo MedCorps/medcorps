@@ -47,6 +47,8 @@
                     <div id="titlePhone">(609) 778-2744 - Cape May Court House</div>
                     <div id="titlePhone">(606) 759-9424 - Maysville KY</div>
                 </div>
+                <div id="title_socialMedia"><a href="https://www.facebook.com/medcorpsofficial" target="_blank"><img src="img/logo-facebook-50.png" alt="facebook logo" title="Like us on FaceBook"></a></div>
+                <div id="title_socialMedia" alt="google review logo" title="Write a google review"><a href="http://bit.ly/2V9CLYA" target="_blank"><img src="img/logo-google-review-50.jpg"></a></div>
             </div>
         </div>
     </div>
@@ -59,7 +61,7 @@
             <p>In an effort to help reduce the spread of the Corona or COVID-19 virus, Medcorps is now taking Telemedicine appointments. Telemedicine holds the promise to significantly impact some of the most challenging problems of our current healthcare crisis. Give us a call today to setup an appointment.</p><br>
             <a href="telemedicine.php"><img src="img/but-telemed.png"></a>
         </div>
-        <div class="half" id="teleImg"><img src="img/ban-telemed.jpg"></div>
+        <div class="half" id="teleImg"><img src="img/ban-telemed-allen.jpg"></div>
     </div>
 
     <div class="infoCon" style="background-color: #141414;">
@@ -73,7 +75,13 @@
         </div>
     </div>
 
-    <?php include '_socialMedia.php'; ?>
+    <div class="infoCon" id="foodBank">
+        <div class="half">
+            <div class="pageTitle">Food Bank of South Jersey</div>
+            <p>Many families throughout the South Jersey area are finding it difficult to put food on the table. Medcorps is committed to help those in our community that are struggling at this time. Please join us in assisting the Food Bank of South Jersey. Together we can help others breathe.<a href="http://donate.foodbanksj.org/medcorps" target="_blank"> Click HERE to donate.</a></p><br>
+        </div>
+        <div class="half" id=""><a href="http://donate.foodbanksj.org/medcorps" target="_blank"><img src="img/ban-foodbank2.jpg"></a></div>
+    </div>
 
     <div class="infoCon" id="welcomeBan">
         <div id="hpPatcare">
@@ -123,14 +131,17 @@
         <img src="img/ban-allergy-index.jpg" alt="medcorps allergy forecast image">
     </div>
 
-    <div class="infoCon" id="infoWrap">
+    <?php include '_socialMedia.php'; ?>
+
+
+    <!-- <div class="infoCon" id="infoWrap">
         <div class="half" id="highLightinfo">
             <h3>What is ChronicCare IQ?</h3>
             <p>ChronicCare IQ helps your doctor deliver the highest level of care for their patients through chronic care management, remote patient monitoring, and transitional care management.</p>
         </div>
         <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank" rel="noopener"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
         </div>
-    </div>
+    </div> -->
 
     <div class="hpPatcon">
         <div id="hpPatcare">

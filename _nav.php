@@ -51,7 +51,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="dirsewell.php">Cape May Court House</a>
+                        <li><a href="dircapemay.php">Cape May Court House</a>
                             <ul>
                                 <li id="officeInfocon">
                                     <div id="officeInfo">
@@ -107,7 +107,7 @@
                         <li><a href="nosmoking.php">Quit Smoking</a></li>
                         <li><a href="medications.php">Medications</a></li>
                         <li><a href="forms/medcorps-patient-form.pdf" target="_blank">New Patient Forms</a></li>
-                        <li><a href="forms/medical-record-release.pdf" target="_blank">Medical Release Form</a></li>
+                        <li><a href="forms/medical record release.pdf" target="_blank">Medical Release Form</a></li>
                         <li><a href="forms/medcorps-payment-plan.pdf" target="_blank">Payment Plan</a></li>
                         <li><a href="policy/privacy-practices.pdf" target="_blank">Privacy Practices</a></li>
                     </ul>

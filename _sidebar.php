@@ -1,5 +1,9 @@
 <div class="sideBar">
     <div id="sideCon">
+      <!-- <div id="sideConimg">
+        <a href="http://bit.ly/2V9CLYA" target="_blank"><img src="img/but-googlereview.png" title="Click to leave a Google review"alt="google review"></a>
+        <a href="https://www.facebook.com/medcorpsofficial" target="_blank"><img src="img/but-facebook.png" title="Click to like us on Facebook" alt="like us on facebook"></a>
+      </div> -->
         <h3>LOCATIONS / HOURS</h3>
         <h3>Click for Info</h3>
 
@@ -38,7 +42,7 @@
         </div>
 
         <div id="sideAdd">
-            <a id="sideAddtitle" href="dircapemay.php" title="Click for Directions">Cape May Court House NJ</a> 
+            <a id="sideAddtitle" href="dircapemay.php" title="Click for Directions">Cape May Court House NJ</a>
             <ul>
                 <li>Thursday - 10am - 4pm</li>
                 <li>Friday - 9am - 4pm</li>
@@ -68,12 +72,6 @@
                 <li></li>
             </ul>
         </div>
-
-        <div id="sideConimg">
-          <a href="http://bit.ly/2V9CLYA" target="_blank"><img src="img/but-googlereview.png" title="Click to leave a Google review"alt="google review"></a>
-          <a href="https://www.facebook.com/medcorpsofficial" target="_blank"><img src="img/but-facebook.png" title="Click to like us on Facebook" alt="like us on facebook"></a>
-        </div>
-
         <div style="text-align:center;"><a href="topdoc.php"><img src="img/topdoc-logo.jpg" alt="top doc logo"></a>
         </div>
 

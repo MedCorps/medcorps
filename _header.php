@@ -48,6 +48,8 @@
                 <div id="titlePhone">(609) 778-2744 - Cape May Court House</div>
                 <div id="titlePhone">(606) 759-9424 - Maysville KY</div>
             </div>
+            <div id="title_socialMedia"><a href="https://www.facebook.com/medcorpsofficial" target="_blank"><img src="img/logo-facebook-50.png" alt="facebook logo" title="Like us on FaceBook"></a></div>
+            <div id="title_socialMedia" alt="google review logo" title="Write a google review"><a href="http://bit.ly/2V9CLYA" target="_blank"><img src="img/logo-google-review-50.jpg"></a></div>
         </div>
     </div>
 

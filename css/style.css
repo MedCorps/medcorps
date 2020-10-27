@@ -1,237 +1,233 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: inherit;
-    font-family: inherit;
-    outline: none;
-    text-decoration: none;
+  color: inherit;
+  font-family: inherit;
+  outline: none;
+  text-decoration: none;
 }
 
 body,
 html {
-    height: 100%;
-    margin: 0 auto;
-    font-family: 'Nanum Gothic', sans-serif;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1 {
-    font-size: 1.20em;
-    font-weight: inherit;
-    padding-bottom: 3%;
+  font-size: 1.20em;
+  font-weight: inherit;
+  padding-bottom: 3%;
 }
 
 h2 {
-    font-size: 1.1em;
-    font-weight: inherit;
+  font-size: 1.1em;
+  font-weight: inherit;
 }
 
 h3 {
-    font-size: 1em;
-    text-align: center;
-    font-weight: 100;
-    padding-bottom: 3%;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 3%;
 }
 
 hr {
-    width: 95%;
-    margin: 4% auto;
-    color: #d0d0d0;
+  width: 95%;
+  margin: 4% auto;
+  color: #d0d0d0;
 }
 
 p {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 ol {
-    list-style-position: outside;
-    margin-left: 1em;
+  list-style-position: outside;
+  margin-left: 1em;
 }
 
-ol > li > ul {
-    margin-left: 1em;
-    list-style: none;
+ol>li>ul {
+  margin-left: 1em;
+  list-style: none;
 }
 
 ul li {
-    list-style: none;
+  list-style: none;
 }
 
 li a {
-    list-style: none;
-    color: inherit;
+  list-style: none;
+  color: inherit;
 }
 
 span {
-    font-size: .9em;
-    color: inherit;
+  font-size: .9em;
+  color: inherit;
 }
 
 img {
-    margin: 0 auto;
-    padding: 0;
+  margin: 0 auto;
+  padding: 0;
 }
 
-
 /* classes */
-
-
 .bodyWrap {
-    width: 100%;
+  width: 100%;
 }
 
 .bio {
-    height: 300px;
-    padding: 10px;
+  height: 300px;
+  padding: 10px;
 }
 
 .con {
-    margin: 5% auto;
-    width: 100%;
-    height: 200px;
-    border-bottom: 1px solid #d0d0d0;
-    border-top: 1px solid #d0d0d0;
-    padding: 3% 0;
-    float: left;
+  margin: 5% auto;
+  width: 100%;
+  height: 200px;
+  border-bottom: 1px solid #d0d0d0;
+  border-top: 1px solid #d0d0d0;
+  padding: 3% 0;
+  float: left;
 }
 
 .con p {
-    margin: 0 auto;
-    max-width: 60%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 1.5em;
+  margin: 0 auto;
+  max-width: 60%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
 }
 
 .con img {
-    width: 200px;
+  width: 200px;
 }
 
 .footer {
-    bottom: 0;
-    border-top: 2px solid #dfb363;
-    background-image: linear-gradient(to right, #820000, #262626);
-    /* background-color: #007add; */
-    margin: 0px auto;
-    width: 100%;
-    height: 30%;
-    z-index: 0;
-    float: left;
-    font-size: .9em;
+  bottom: 0;
+  border-top: 2px solid #dfb363;
+  background-image: linear-gradient(to right, #820000, #262626);
+  /* background-color: #007add; */
+  margin: 0px auto;
+  width: 100%;
+  height: 30%;
+  z-index: 0;
+  float: left;
+  font-size: .9em;
 }
 
 .footerWrap {
-    margin: 0 auto;
-    padding-top: 10px;
-    max-width: 1200px;
-    float: none;
-    color: #fff;
+  margin: 0 auto;
+  padding-top: 10px;
+  max-width: 1200px;
+  float: none;
+  color: #fff;
 }
 
 .half {
-    margin: 0 2%;
-    width: 46%;
-    position: relative;
-    float: left;
-    top: 50%;
-    transform: translateY(-50%);
+  margin: 0 2%;
+  width: 46%;
+  position: relative;
+  float: left;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .halfBlock {
-    padding: 2%;
-    width: 45%;
-    height: 100px;
-    display: inline-block;
+  padding: 2%;
+  width: 45%;
+  height: 100px;
+  display: inline-block;
 }
 
 .header {
-    margin: 0px auto;
-    width: 100%;
-    height: 160px;
-    background-image: linear-gradient(to right, #820000, #262626);
-    border-bottom: 3px solid #dfb363;
-    color: #fff;
+  margin: 0px auto;
+  width: 100%;
+  height: 160px;
+  background-image: linear-gradient(to right, #820000, #262626);
+  border-bottom: 3px solid #dfb363;
+  color: #fff;
 }
 
 .headerWrap {
-    margin: 0 auto;
-    max-width: 1150px;
+  margin: 0 auto;
+  max-width: 1150px;
 }
 
 .hpPatcon {
-    display: block;
-    width: 100%;
-    min-height: 700px;
-    background-image: url(../img/ban-breathe02.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+  display: block;
+  width: 100%;
+  min-height: 700px;
+  background-image: url(../img/ban-runner02.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .hpHeadcon {
-    margin: 0 auto;
-    width: 100%;
-    height: 500px;
-    background-image: url(../img/ban-medcorps-01.jpg);
-    background-position: center top;
-    background-size: 100%;
-    background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/ban-fall-bkg.jpg);
+  background-position: center top;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .imgCon {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .imgCon img {
-    width: 100%;
+  width: 100%;
 }
 
 .infoCon {
-    margin: 3% auto;
-    width: 100%;
+  margin: 3% auto;
+  width: 100%;
 }
 
 .mainCon {
-    margin: 2% auto;
-    width: 100%;
-    max-width: 1200px;
+  margin: 2% auto;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .mediaCon {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    z-index: 50;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+  z-index: 50;
 }
 
 .mediaCon iframe,
 .mediaCon object,
 .mediaCon embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .medInfo {
-    height: 200px;
-    padding: 10px;
-    margin-bottom: 3%;
-
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 3%;
 }
 
 .officeStaff {
-    margin: 0 0 2% 0;
-    padding: 5%;
-    /* border-bottom: 1px solid grey; */
-    background-image: linear-gradient(#eaeaea, rgba(255, 255, 255, 0));
-    border-radius: 8px 8px 0 0;
+  margin: 0 0 2% 0;
+  padding: 5%;
+  /* border-bottom: 1px solid grey; */
+  background-image: linear-gradient(#eaeaea, rgba(255, 255, 255, 0));
+  border-radius: 8px 8px 0 0;
 }
 
 /*  .pageTitle {
@@ -243,92 +239,82 @@ img {
     border-radius: 8px 8px 0 0;
     border: 1px solid #dfb363ba;
 } */
-
 .pageTitle {
-    margin: 0 0 3% 0;
-    padding: 2%;
-    font-size: 1.5em;
-    border-radius: 8px;
-    border: 1px solid #dfb363ba;
-    text-align: center;
+  margin: 0 0 3% 0;
+  padding: 2%;
+  font-size: 1.5em;
+  border-radius: 8px;
+  border: 1px solid #dfb363ba;
+  text-align: center;
 }
 
 .pageTitle h1 {
-    padding-bottom: 0;
+  padding-bottom: 0;
 }
 
 .serviceCon {
-    margin: 3% auto;
-    width: 100%;
-    height: 500px;
+  margin: 3% auto;
+  width: 100%;
+  height: 500px;
 }
 
 .sideBar {
-    margin: 2% auto;
-    width: 22%;
-    float: right;
-    min-height: 850px;
+  margin: 2% auto;
+  width: 22%;
+  float: right;
+  min-height: 850px;
 }
 
 .sideLeft {
-    margin: 2% auto;
-    width: 75%;
-    float: left;
-    min-height: 650px;
+  margin: 2% auto;
+  width: 75%;
+  float: left;
+  min-height: 650px;
 }
 
 .third {
-
-    width: 28%;
-    height: 225px;
-    display: inline-block;
+  width: 28%;
+  height: 225px;
+  display: inline-block;
 }
 
 .thirdBlock {
-    width: 30%;
-    height: 100px;
-    display: inline-block;
+  width: 30%;
+  height: 100px;
+  display: inline-block;
 }
 
 .third,
 .halfBlock p {
-    position: relative;
-    top: 30%;
-    transform: translate(0, -50%)
+  position: relative;
+  top: 30%;
+  transform: translate(0, -50%)
 }
 
-
 /* test area */
-
-
-
-
 /* end test area */
-
-
 /* id */
-
 #appStore {
-    text-align: center;
+  text-align: center;
 }
 
 #bannerImg {
-    margin: 0 auto;
-    width: 100%;
-    height: 160px;
+  margin: 0 auto;
+  width: 100%;
+  height: 160px;
 }
 
 #bioPic {
-    width: 150px;
-    height: 300px;
-    float: left;
-    padding: 15px 25px 0 25px;
+  width: 150px;
+  height: 300px;
+  float: left;
+  padding: 15px 25px 0 25px;
 }
 
 #ccProviders {
-    margin: 5% auto;
-    top: 25%;
-    position: relative;
+  margin: 5% auto;
+  top: 25%;
+  position: relative;
 }
 
 #ccProverimg {
@@ -339,202 +325,213 @@ img {
 }
 
 #copyr {
-    width: 100%;
-    text-align: center;
-    font-size: .75em;
-    float: left;
+  width: 100%;
+  text-align: center;
+  font-size: .75em;
+  float: left;
 }
 
 #corona,
 #coronaInfo {
-    margin: 2% auto;
-    width: 90%;
-    height: 525px;
-    background-color: #141414;
-    text-align: center;
+  margin: 2% auto;
+  width: 90%;
+  height: 525px;
+  background-color: #141414;
+  text-align: center;
+}
+
+#foodBank {
+  margin: 2% auto;
+  width: 90%;
+  height: 320px;
+}
+
+#foodBank img {
+  width: 100%;
 }
 
 #footAdd {
-    margin: 35px auto;
-    width: 20%;
-    display: inline-block;
-    padding: 10px;
-    float: none;
+  margin: 35px auto;
+  width: 20%;
+  display: inline-block;
+  padding: 10px;
+  float: none;
 }
 
 #infoWrap {
-    margin: 0 auto;
-    width: 100%;
-    height: 600px;
-    max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  height: 600px;
+  max-width: 1000px;
 }
 
 #halfImg {
-    text-align: center;
-    float: right;
+  text-align: center;
+  float: right;
 }
 
 #hpHeadwrap {
-    margin: 0 auto;
-    max-width: 1200px;
-    height: 575px;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 575px;
 }
 
 #hpHeadwrapbottom {
-    max-width: 1200px;
-    height: 50px;
-    position: relative;
-    bottom: -370px;
+  max-width: 1200px;
+  height: 50px;
+  position: relative;
+  bottom: -370px;
 }
 
 #hpHeadwraptop {
-    max-width: 1200px;
-    height: 150px;
-    position: inherit;
-    top: 0px;
+  max-width: 1200px;
+  height: 150px;
+  position: inherit;
+  top: 0px;
+  color: #fff;
 }
 
 #highLightinfo {
-    width: 35%;
-    padding: 5% 4%;
-    border: 1px solid #dfb363ba;
-    border-radius: 15px;
-    font-size: 1.25em;
+  width: 35%;
+  padding: 5% 4%;
+  border: 1px solid #dfb363ba;
+  border-radius: 15px;
+  font-size: 1.25em;
 }
 
 #hpTopnav {
-    display: inline-block;
-    float: left;
-    padding: 1%;
+  display: inline-block;
+  float: left;
+  padding: 1%;
 }
 
 #hpPatcare {
-    width: 30%;
-    max-height: 350px;
-    margin-top: 3%;
-    background-color: rgba(234, 234, 234, 0.29);
-    padding: 5%;
-    float: right;
-    color: #fff;
-    font-size: 1.25em;
-    line-height: 2
+  width: 30%;
+  max-height: 350px;
+  margin-top: 3%;
+  background-color: rgba(234, 234, 234, 0.5);
+  padding: 5%;
+  float: right;
+  color: #000;
+  font-size: 1.25em;
+  line-height: 2
 }
 
 #listItem ul li {
-    list-style: circle;
-    margin-left: 2em;
+  list-style: circle;
+  margin-left: 2em;
 }
 
 #logofooter {
-    margin: 10px auto;
-    float: right;
-    text-align: center;
+  margin: 10px auto;
+  float: right;
+  text-align: center;
 }
 
 #logoHeader {
-    margin-top: 20px;
-    float: left;
-    z-index: 20;
+  margin-top: 20px;
+  float: left;
+  z-index: 20;
 }
 
 #map {
-    margin: 0 auto;
-    width: 100%;
-    height: 625px;
-    float: left;
+  margin: 0 auto;
+  width: 100%;
+  height: 625px;
+  float: left;
 }
 
 #medPic {
-    width: 200px;
-    height: 200px;
-    float: left;
-    padding-right: 2%;
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding-right: 2%;
 }
 
 #officeInfocon {
-    margin: 0 auto;
-    width: 575px;
-    min-height: 280px;
-    background-color: grey;
-    border: 1px solid #dfb363ba;
+  margin: 0 auto;
+  width: 575px;
+  min-height: 280px;
+  background-color: grey;
+  border: 1px solid #dfb363ba;
 }
 
 #officeInfo {
-    margin: 0 auto;
-    width: 350px;
-    height: 200px;
-    padding: 3%;
-    color: #fff;
-    font-size: 1.2em;
-    float: left;
+  margin: 0 auto;
+  width: 350px;
+  height: 200px;
+  padding: 3%;
+  color: #fff;
+  font-size: 1.2em;
+  float: left;
 }
 
 #officeInfo a {
-    padding: 0;
+  padding: 0;
 }
 
 #officeInfomap {
-    margin: 0px auto;
-    width: 175px;
-    height: 310px;
-    float: right;
+  margin: 0px auto;
+  width: 175px;
+  height: 310px;
+  float: right;
 }
 
 #policies {
-    margin: 3% auto;
-    padding: 2%;
-    font-weight: bold;
-    width: 100%;
-    text-align: center;
+  margin: 3% auto;
+  padding: 2%;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
 }
 
 #portal {
-    width: 100%;
-    height: 850px;
-    float: left;
+  width: 100%;
+  height: 850px;
+  float: left;
 }
 
 #serviceInfo {
-    margin: 5% auto;
-    width: 31%;
-    padding: 10px;
-    float: left;
-    text-align: center;
+  margin: 5% auto;
+  width: 31%;
+  padding: 10px;
+  float: left;
+  text-align: center;
 }
 
 #serviceInfo ul li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 #serviceInfo img {
-    width: 50%;
-    margin: 8%;
+  width: 50%;
+  margin: 8%;
 }
 
 #serviceWrap {
-    margin: 0 auto;
-    max-width: 1200px;
-    height: 500px;
+  margin: 0 auto;
+  max-width: 1200px;
+  height: 500px;
 }
 
 #sideAdd {
-    margin: 10% auto;
-    width: 100%;
-    line-height: 1.5em;
+  margin: 10% auto;
+  width: 100%;
+  line-height: 1.5em;
 }
 
 #sideAddtitle {
-    margin: 5% auto;
-    padding: 6%;
-    background-image: linear-gradient(to right, #820000, #262626);
-    border-radius: 5px;
-    display: block;
-    color: #fff;
+  margin: 5% auto;
+  padding: 6%;
+  background-image: linear-gradient(to right, #820000, #262626);
+  border-radius: 5px;
+  display: block;
+  color: #fff;
 }
 
 #sideConimg {
-    text-align: center;
-    margin: 10% auto;
+  text-align: center;
+  margin: 1% auto;
 }
 
 #sideConimg img {
@@ -544,360 +541,359 @@ img {
 }
 
 #socialCon {
-    margin: 10% auto;
-    width: 80%;
-    height: 153px;
-    text-align: center;
+  margin: 8% auto;
+  width: 80%;
+  height: 153px;
+  text-align: center;
 }
 
 #telemed {
-    margin: 2% auto;
-    width: 90%;
-    height: 500px;
+  margin: 2% auto;
+  width: 90%;
+  height: 500px;
 }
 
 #title_block {
-    margin: 2.5% 1% 2% 2%;
-    float: left;
-    font-size: 1.1em;
+  margin: 2.5% 1% 2% 2%;
+  float: left;
+  font-size: 1.1em;
+}
+
+#title_socialMedia {
+  margin: 2.5% 1% 2% 2%;
+  float: left;
 }
 
 #topDoccon img {
-    width: 100%;
+  width: 100%;
 }
 
 #welcomeBan {
-    margin: 45px auto;
-    display: block;
-    width: 100%;
-    min-height: 550px;
-    background-image: url(../img/ban-walking.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+  margin: 45px auto;
+  display: block;
+  width: 100%;
+  min-height: 550px;
+  background-image: url(../img/ban-medcorps-02.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 /* media queries */
-
 @media only screen and (max-width: 1024px)
 
 /* 1000 */
-    {}
+  {}
 
 @media only screen and (max-width: 768px)
 
 /* 640 */
-    {
-
-    h1 {
-        text-align: center;
-    }
-
-    h3 {
-        font-size: 1.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-        padding: 2%;
-    }
-
-
-    /* class */
-
-    .bio {
-        text-align: left;
-        height: inherit;
-    }
-
-    .con {
-        height: 400px;
-    }
-
-    .con p {
-        max-width: 80%;
-    }
-
-    .footer {
-        height: 100%;
-        margin: 50px auto;
-        background-image: linear-gradient(to bottom, #820000, #262626);
-    }
-
-    .half {
-        margin: 2% auto;
-        left: 0;
-        width: 90%;
-        float: none;
-        position: inherit;
-        transform: none;
-    }
-
-    .halfBlock {
-        padding: 4%;
-        width: 90%;
-        height: 150px;
-    }
-
-    .header {
-        height: 425px;
-        background-image: linear-gradient(to top, #820000, #262626);
-    }
-
-    .hpHeadcon {
-        height: 425px;
-        background-image: none;
-        background-image: linear-gradient(to top, #820000, #262626);
-        border-bottom: 3px solid #dfb363;
-    }
-
-    .headerWrap {
-        text-align: center;
-    }
-
-    .hpPatcon {
-        margin: 3% 0 3% 0;
-        display: block;
-        width: 100%;
-        min-height: inherit;
-        background-image: none;
-    }
-
-    .imgCon {
-        margin: 5% 0;
-    }
-
-    .infoCon {
-        margin: 10% auto;
-        float: none;
-    }
-
-    .mainCon {
-        margin: 20% 0;
-    }
-
-    .medInfo {
-        height: inherit;
-        border-bottom: 1px solid grey;
-    }
-
-    .pageTitle {
-        margin: 0 0 3% 0;
-        padding: 2%;
-        font-size: 1.5em;
-    }
-
-    .sideBar {
-        margin: 2% auto;
-        width: 80%;
-        float: none;
-    }
-
-    .sideBar p {
-        line-height: 1.5em;
-        font-size: 1.15em
-    }
-
-    .sideLeft {
-        margin: 10% auto;
-        width: 95%;
-        float: none;
-    }
-
-    .thirdBlock {
-        width: 90%;
-    }
-
-
-    /* mobile test area */
-
-    #ccProverimg {
-
-      width: 45%;
-
-    }
-
-
-
-    /* mobile test area */
-
-
-    /* id */
-
-    #bannerImg {
-        display: none;
-    }
-
-    #bioPic {
-        width: 100%;
-        height: inherit;
-        float: none;
-        padding: 10px;
-        text-align: center;
-    }
-
-    #ccProviders {
-        height: 1000px;
-        top: 0;
-    }
-
-
-
-    #corona {
-        width: 100%;
-        float: left;
-        height: 900px;
-
-    }
-
-    #covidImg img {
-        margin: 0 auto;
-        left: 0%;
-        width: 95%;
-    }
-
-    #coronaInfo {
-        margin: 0 auto;
-        width: 100%;
-        height: inherit;
-        background-color: #141414;
-        text-align: center;
-    }
-
-    #coronaInfo img {
-        width: 75%;
-    }
-
-
-    #footAdd {
-        margin: 15px auto;
-        width: 100%;
-        padding: 0;
-        text-align: center;
-    }
-
-    #logofooter {
-        float: none;
-    }
-
-    #logoHeader {
-        width: 100%;
-        margin: 2% auto;
-    }
-
-    #infoWrap {
-        width: 100%;
-        margin: 25% auto;
-        min-height: 750px;
-    }
-
-    #halfImg {
-        left: 0%;
-        float: none;
-
-    }
-
-    #highLightinfo {
-        width: 70%;
-        font-size: 1.1em;
-    }
-
-    #hpHeadwrap {
-        height: inherit;
-    }
-
-    #hpHeadwrapbottom {
-        bottom: -237px;
-        background-color: none;
-    }
-
-    #hpPatcare {
-        width: 90%;
-        max-height: inherit;
-        padding: 5%;
-        float: none;
-        color: #000000;
-        text-align: center;
-        font-size: 1.1em;
-    }
-
-    #hpTopnav {
-        margin: 2% auto;
-        width: 100%;
-        text-align: center;
-        padding: 0;
-    }
-
-    #hpTopnav img {
-        text-align: center;
-    }
-
-    #logoFooter {
-        margin: 10px auto;
-        float: none;
-        text-align: center;
-    }
-
-    #medPic {
-        margin: 0 auto;
-        float: none;
-        padding: 2%;
-    }
-
-    #policies {
-        font-size: 1.2em;
-    }
-
-    #serviceWrap {
-        width: 100%;
-        height: 1150px;
-    }
-
-    #serviceInfo {
-        width: 100%;
-    }
-
-    #serviceInfo ul li {
-        font-size: 1.5em;
-    }
-
-    #sideAdd ul li {
-        font-size: 1.15em;
-        line-height: 1.5;
-    }
-
-    #socialCon {
-        height: 400px;
-        float: left;
-        width: 100%;
-    }
-
-    #telemed {
-        margin: 2% auto;
-        width: 100%;
-        height: 450px;
-        float: left;
-    }
-
-    #telemed img {
-        width: 100%;
-    }
-
-    #teleImg {
-        display: none;
-    }
-
-    #title_block {
-        margin: 1% auto;
-        width: 100%;
-        text-align: center;
-        color: #fff;
-        font-size: 1.2em;
-
-    }
-
-    #welcomeBan {
-        width: 100%;
-        min-height: inherit;
-        background-image: none;
-    }
+  {
+  h1 {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+    padding: 2%;
+  }
+
+  /* class */
+  .bio {
+    text-align: left;
+    height: inherit;
+  }
+
+  .con {
+    height: 400px;
+  }
+
+  .con p {
+    max-width: 80%;
+  }
+
+  .footer {
+    height: 100%;
+    margin: 50px auto;
+    background-image: linear-gradient(to bottom, #820000, #262626);
+  }
+
+  .half {
+    margin: 2% auto;
+    left: 0;
+    width: 90%;
+    float: none;
+    position: inherit;
+    transform: none;
+  }
+
+  .halfBlock {
+    padding: 4%;
+    width: 90%;
+    height: 150px;
+  }
+
+  .header {
+    height: 475px;
+    background-image: linear-gradient(to top, #820000, #262626);
+  }
+
+  .hpHeadcon {
+    height: 475px;
+    background-image: none;
+    background-image: linear-gradient(to top, #820000, #262626);
+    border-bottom: 3px solid #dfb363;
+  }
+
+  .headerWrap {
+    text-align: center;
+  }
+
+  .hpPatcon {
+    margin: 3% 0 3% 0;
+    display: block;
+    width: 100%;
+    min-height: inherit;
+    background-image: none;
+  }
+
+  .imgCon {
+    margin: 5% 0;
+  }
+
+  .infoCon {
+    margin: 10% auto;
+    float: none;
+  }
+
+  .mainCon {
+    margin: 20% 0;
+  }
+
+  .medInfo {
+    height: inherit;
+    border-bottom: 1px solid grey;
+  }
+
+  .pageTitle {
+    margin: 0 0 3% 0;
+    padding: 2%;
+    font-size: 1.5em;
+  }
+
+  .sideBar {
+    margin: 2% auto;
+    width: 80%;
+    float: none;
+  }
+
+  .sideBar p {
+    line-height: 1.5em;
+    font-size: 1.15em
+  }
+
+  .sideLeft {
+    margin: 10% auto;
+    width: 95%;
+    float: none;
+  }
+
+  .thirdBlock {
+    width: 90%;
+  }
+
+  /* mobile test area */
+  /* mobile test area */
+  /* id */
+  #bannerImg {
+    display: none;
+  }
+
+  #bioPic {
+    width: 100%;
+    height: inherit;
+    float: none;
+    padding: 10px;
+    text-align: center;
+  }
+
+  #ccProviders {
+    height: 1000px;
+    top: 0;
+  }
+
+  #ccProverimg {
+    width: 49%;
+  }
+
+  #corona {
+    width: 100%;
+    float: left;
+    height: 900px;
+  }
+
+  #covidImg img {
+    margin: 0 auto;
+    left: 0%;
+    width: 95%;
+  }
+
+  #coronaInfo {
+    margin: 0 auto;
+    width: 100%;
+    height: inherit;
+    background-color: #141414;
+    text-align: center;
+  }
+
+  #coronaInfo img {
+    width: 75%;
+  }
+
+  #foodBank {
+    margin: 10% auto;
+    width: 100%;
+    height: 500px;
+    float: left;
+  }
+
+  #footAdd {
+    margin: 15px auto;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  #logofooter {
+    float: none;
+  }
+
+  #logoHeader {
+    width: 100%;
+    margin: 2% auto;
+  }
+
+  #infoWrap {
+    width: 100%;
+    margin: 25% auto;
+    min-height: 750px;
+  }
+
+  #halfImg {
+    left: 0%;
+    float: none;
+  }
+
+  #highLightinfo {
+    width: 70%;
+    font-size: 1.1em;
+  }
+
+  #hpHeadwrap {
+    height: inherit;
+  }
+
+  #hpHeadwrapbottom {
+    bottom: -237px;
+    background-color: none;
+  }
+
+  #hpPatcare {
+    width: 90%;
+    max-height: inherit;
+    padding: 5%;
+    float: none;
+    color: #000000;
+    text-align: center;
+    font-size: 1.1em;
+  }
+
+  #hpTopnav {
+    margin: 2% auto;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  #hpTopnav img {
+    text-align: center;
+  }
+
+  #logoFooter {
+    margin: 10px auto;
+    float: none;
+    text-align: center;
+  }
+
+  #medPic {
+    margin: 0 auto;
+    float: none;
+    padding: 2%;
+  }
+
+  #policies {
+    font-size: 1.2em;
+  }
+
+  #serviceWrap {
+    width: 100%;
+    height: 1150px;
+  }
+
+  #serviceInfo {
+    width: 100%;
+  }
+
+  #serviceInfo ul li {
+    font-size: 1.5em;
+  }
+
+  #sideAdd ul li {
+    font-size: 1.15em;
+    line-height: 1.5;
+  }
+
+  #socialCon {
+    height: 400px;
+    float: left;
+    width: 100%;
+  }
+
+  #telemed {
+    margin: 2% auto;
+    width: 100%;
+    height: 450px;
+    float: left;
+  }
+
+  #telemed img {
+    width: 100%;
+  }
+
+  #teleImg {
+    display: none;
+  }
+
+  #title_block {
+    margin: 1% auto;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+  }
+
+  #title_socialMedia {
+    margin: 6% 0;
+    width: 50%;
+    text-align: center;
+  }
+
+  #welcomeBan {
+    width: 100%;
+    min-height: inherit;
+    background-image: none;
+  }
 }
