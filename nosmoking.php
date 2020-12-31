@@ -10,7 +10,7 @@
       <a href="https://www.capeassist.org" target="_blank"><img src="img/ban-capeassist.jpg" style="width:100%;" alt="smokefree.gov banner"></a>
 
         <div class="con">
-            <p>Family programs with proven techniques for building and strengthening positive reinforcements.<a href="https://www.capeassist.org" target="_blank"> - click for info</a></p>
+            <p>We offer family programs with proven techniques for building and strengthening positive reinforcements.<a href="https://www.capeassist.org" target="_blank"> - click for info</a></p>
         </div>
 
         <a href="https://smokefree.gov" target="_blank"><img src="img/ban-smokefree.jpg" style="width:100%;" alt="smokefree.gov banner"></a>
