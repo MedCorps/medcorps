@@ -1,11 +1,18 @@
-<? $title_tag = 'MedCorps Asthma & Pulmonary | Need help quiting smoking?'; ?>
-<? $pageMeta = 'Need help quiting smoking?'; ?>
-<? $pageKeywords ='' ;?>
+<?php $title_tag = 'MedCorps Asthma & Pulmonary | Need help quiting smoking?'; ?>
+<?php $pageMeta = 'Need help quiting smoking?'; ?>
+<?php $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>
 
 <div class="mainCon">
     <div class="sideLeft">
+
+      <a href="https://www.capeassist.org" target="_blank"><img src="img/ban-capeassist.jpg" style="width:100%;" alt="smokefree.gov banner"></a>
+
+        <div class="con">
+            <p>Family programs with proven techniques for building and strengthening positive reinforcements.<a href="https://www.capeassist.org" target="_blank"> - click for info</a></p>
+        </div>
+
         <a href="https://smokefree.gov" target="_blank"><img src="img/ban-smokefree.jpg" style="width:100%;" alt="smokefree.gov banner"></a>
 
         <div class="con">

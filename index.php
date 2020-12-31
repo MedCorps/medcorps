@@ -55,6 +55,16 @@
 
     <?php include '_nav.php'; ?>
 
+<!-- above the fold event -->
+<!--
+
+    <div class="imgCon">
+        <img src="img/ban-veterans-day.jpg" alt="veterans day">
+    </div>
+
+-->
+
+
     <div class="infoCon" id="telemed">
         <div class="half">
             <div class="pageTitle">Telemedicine Appointments</div>

@@ -48,8 +48,15 @@
             <div id="bioPic"><img src="img/staff-susan.jpg" alt="Susan Campbell – Respiratory Therapist" /></div>
             <div class="bio">
                 <h1>Susan Campbell – RRT, BS</h1>
-                <p>I attended <a href="http://www.californiacollegeforhealthsciences.org/" style="text-decoration:underline" target="_blank">California College for Health Sciences</a> and graduated as a Certified Respiratory Therapist with an Associate’s Degree. I attended <a href="https://www.independence.edu/" style="text-decoration:underline" target="_blank">Independence University</a> and graduated as a Registered Respiratory Therapist. I attended <a href="https://massm.persante.com/" style="text-decoration:underline" target="_blank">Mid-Atlantic School of Sleep Medicine &amp; Clinical training</a>, and passed the Registered Polysomnographic Technologist boards. I attended <a href="https://www.tesu.edu/" style="text-decoration:underline" target="_blank">Thomas Edison State University</a> and graduated with a Bachelor of Science in Applied Science and Technology in Respiratory Care. I have been working in the health care field for over twenty-five years. Prior to joining MedCorps in 2018, my work history includes: Cape Regional Medical Center, AtlantiCare Regional Medical Center, Shore Medical Center, Acuity Specialty Hospital, Atlantic Sleep Health Diagnostics Associates, and Linwood Care Center. I currently live in Cape May County with my husband and two sons. We enjoy spending time with our family and traveling. I look forward to meeting you in the office!</p>
+                <p>I attended <a href="http://www.californiacollegeforhealthsciences.org/" style="text-decoration:underline" target="_blank">California College for Health Sciences</a> and graduated as a Certified Respiratory Therapist with an Associate’s Degree. I attended <a href="https://www.independence.edu/" style="text-decoration:underline" target="_blank">Independence University</a> and graduated as a Registered Respiratory Therapist. I attended <a href="https://massm.persante.com/" style="text-decoration:underline" target="_blank">Mid-Atlantic School of Sleep Medicine &amp; Clinical training</a>, and passed the Registered Polysomnographic Technologist boards. I attended <a href="https://www.tesu.edu/" style="text-decoration:underline" target="_blank">Thomas Edison State University</a> and graduated with a Bachelor of Science in Applied Science and Technology in Respiratory Care. I have been working in the health care field for over twenty-five years. My work history includes: Cape Regional Medical Center, AtlantiCare Regional Medical Center, Shore Medical Center, Acuity Specialty Hospital, Atlantic Sleep Health Diagnostics Associates, and Linwood Care Center. I currently live in Cape May County with my husband and two sons. We enjoy spending time with our family and traveling.</p>
             </div>
+
+            <div id="bioPic"><img src="img/staff-sylvia-rt.jpg" alt="Sylvia Buzzi - Respiratory Therapist" /></div>
+            <div class="bio">
+                <h1>Sylvia Buzzi - Respiratory Therapist</h1>
+                <p>I am very happy to be on the Medcorp team. I graduated from Atlantic Community College’s Respiratory Program in 1983. I worked at Shore Medical Center for 38 years, last 20 as the Director of Respiratory and Sleep Lab. During my time there, I received my BA in Healthcare Management from Ashford University.  I reside in Somers Point with my husband and cat, Isabella. I enjoy traveling, reading, and get together with family and friends. It would be my pleasure to provide services to you in a safe and efficient manner. </p>
+            </div>
+
         </div>
 
         <div class="officeStaff" id="sewell">
@@ -71,6 +78,13 @@
                 <h1>Ariel Witten - CMA </h1>
                 <p>I am MedCorps Medical Assistant in the Sewell Office. I attended <a href="https://ccts.org/" style="text-decoration:underline" target="_blank">Camden County Technical School</a> in 2009 and obtained my certificate through the <a href="https://www.aama-ntl.org/" style="text-decoration:underline" target="_blank">AAMA</a> as a Certified Medical Assistant in 2010. I am very well-versed in the field and though cardiology is where I've spent most of my career, I am ecstatic to be learning the ins-and-outs of pulmonology and look forward to working with you! While I'm not at work you can find me spending time with my family and kids. I look forward to meeting you in the Sewell office!</p>
             </div> -->
+
+            <div id="bioPic"><img src="img/staff-Julia.JPG" alt="Julia Boberick - Medical Assistant" /></div>
+            <div class="bio">
+                <h1>Julia Boberick - Medical Assistant</h1>
+                <p>I am one of the Medical Assistants working here at Medcorps. I am currently attending Rutgers University- Camden for my BSN in Nursing. Over the summer I became a certified nursing assistant and am so grateful for the opportunity to gain new experiences in the Sewell office. When off from work I love to hang out with my friends and play with my two dogs. Hope to meet you soon!</p>
+            </div>
+
 
             <div id="bioPic"><img src="img/staff-anna.jpg" alt="Anna Moser - Medical Assistant" /></div>
             <div class="bio">

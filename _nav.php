@@ -104,10 +104,11 @@
                     <a href="#">Patient Info</a>
                     <input type="checkbox" id="drop-2" />
                     <ul>
-                        <li><a href="nosmoking.php">Quit Smoking</a></li>
-                        <li><a href="medications.php">Medications</a></li>
                         <li><a href="forms/medcorps-patient-form.pdf" target="_blank">New Patient Forms</a></li>
                         <li><a href="forms/medical record release.pdf" target="_blank">Medical Release Form</a></li>
+                        <li><a href="forms/covid-release.pdf" target="_blank">COVID Release Form</a></li>
+                        <li><a href="nosmoking.php">Quit Smoking</a></li>
+                        <li><a href="medications.php">Medications</a></li>
                         <li><a href="forms/medcorps-payment-plan.pdf" target="_blank">Payment Plan</a></li>
                         <li><a href="policy/privacy-practices.pdf" target="_blank">Privacy Practices</a></li>
                     </ul>

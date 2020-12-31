@@ -1,6 +1,6 @@
-<? $title_tag = 'MedCorps Asthma & Pulmonary | Athena Patient Portal'; ?>
-<? $pageMeta = 'Athena Patient Portal'; ?>
-<? $pageKeywords ='' ;?>
+<?php $title_tag = 'MedCorps Asthma & Pulmonary | Athena Patient Portal'; ?>
+<?php $pageMeta = 'Athena Patient Portal'; ?>
+<?php $pageKeywords ='' ;?>
 
 <?php include '_header.php'; ?>
 
