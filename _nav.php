@@ -17,10 +17,11 @@
                                         <h2><a href="dirsewell.php">100 Kings Way East #D1 Sewell, NJ 08080</a></h2><br>
                                         <h2>Monday thru Friday - 9am to 4pm</h2><br>
                                         <p>(856) 352-6572 - office</p>
-                                        <p>(856) 352-6710 - fax</p><br>
+                                        <p>(856) 352-6710 - fax</p>
                                         <hr>
                                         <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. DO<span> - Every Other Tuesday</span></a></p>
-                                        <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone DO<span> - Monday, Tuesday, Thursday, Friday</span></a></p>
+                                        <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone DO<span> - Monday, Thursday, Friday</span></a></p>
+                                        <p><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway PA-C<span> - Tuesday &amp; Wednesday</span></a></p>
                                     </div>
 
                                     <div id="officeInfomap">
@@ -35,14 +36,13 @@
                                     <div id="officeInfo">
                                         <h1>LINWOOD NJ</h1>
                                         <h2><a href="dirlinwood.php">222 New Rd #201 Linwood, NJ 08221</a></h2><br>
-                                        <h2>Monday thru Wednesday - 9am to 4pm</h2>
-                                        <h2>Thursday - 9am to 1pm</h2><br>
+                                        <h2>Monday thru Friday - 9am to 4pm</h2><br>
                                         <p>(609) 788-8953 - office</p>
-                                        <p>(609) 904-6929 - fax</p><br>
+                                        <p>(609) 904-6929 - fax</p>
                                         <hr>
-                                        <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. DO<span> - Monday &amp; Wednesday Morning</span></a></p>
-                                        <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone DO<span> - Wednesday Afternoon</span></a></p>
-                                        <p><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway PA-C<span> - Tuesday &amp; Thursday</span></a></p>
+                                        <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. DO<span> - Monday &amp; Wednesday</span></a></p>
+                                        <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone DO<span> - Wednesday</span></a></p>
+                                        <p><a href="staff.php#devon" title="Click for Bio">Devon Lappin - APRN-NP-C<span> Tuesday &amp; Thursday</span></a></p><br />
                                     </div>
 
                                     <div id="officeInfomap">
@@ -57,13 +57,12 @@
                                     <div id="officeInfo">
                                         <h1>CAPE MAY COURT HOUSE NJ</h1>
                                         <h2><a href="dircapemay.php">211 South Main St. #203 Cape May Court House, NJ 08210</a></h2><br>
-                                        <h2>Thursday - 10am to 4pm</h2>
-                                        <h2>Friday - 9am to 4pm</h2>
-                                        <h2>Every other Tuesday</h2><br>
+                                        <h2>Monday thru Friday - 9am to 4pm</h2><br>
                                         <p>(609) 778-2744 - office</p>
-                                        <p>(609) 778-2579 - fax</p><br>
+                                        <p>(609) 778-2579 - fax</p>
                                         <hr>
-                                        <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. DO<span> - Thursday &amp; Friday</span></a></p>
+                                        <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. DO<span> - Every Other Tuesday, Thursday &amp; Friday</span></a></p>
+                                        <p><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway PA-C<span> - Thursday</span></a></p>
                                     </div>
 
                                     <div id="officeInfomap">
@@ -78,10 +77,10 @@
                                     <div id="officeInfo">
                                         <h1>MAYSVILLE KENTUCKY</h1>
                                         <h2><a href="dirkentucky.php">910 Kenton Station Dr. Maysville, KY 41056</a></h2><br>
-                                        <h2>Monday thru Friday - 9am to 4pm</h2>
-                                        <h2>Call about certain weekend hours</h2><br>
+                                        <h2>Monday thru Friday - 9am to 4pm</h2><br />
+                                        <!-- <h2>Call about certain weekend hours</h2><br> -->
                                         <p>(606) 759-9424 - office</p>
-                                        <p>(606) 759-1118 - fax</p><br>
+                                        <p>(606) 759-1118 - fax</p>
                                         <hr>
                                         <p><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. DO</a></p>
                                         <p><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone DO</a></p>
@@ -95,22 +94,26 @@
                         </li>
                     </ul>
                 </li>
+                <li><a href="sleepapnea.php">Center for Sleep Apnea</a></li>
                 <li><a href="telemedicine.php">Telemedicine</a></li>
                 <li><a href="chroniccare.php">ChronicCare IQ</a></li>
-                <li><a href="patport.php">Athena Portal</a></li>
+                <li><a href="https://11515.portal.athenahealth.com/" target="_blank">Athena Portal</a></li>
 
                 <li>
                     <label for="drop-2" class="toggle">Patient Info</label>
                     <a href="#">Patient Info</a>
                     <input type="checkbox" id="drop-2" />
                     <ul>
+                        <li><a href="sleepapnea.php">Center for Sleep Apnea</a></li>
                         <li><a href="forms/medcorps-patient-form.pdf" target="_blank">New Patient Forms</a></li>
-                        <li><a href="forms/medical record release.pdf" target="_blank">Medical Release Form</a></li>
+                        <li><a href="forms/medical-record-release.pdf" target="_blank">Medical Release Form</a></li>
                         <li><a href="forms/covid-release.pdf" target="_blank">COVID Release Form</a></li>
+                        <li><a href="deductibles.php">Deductibles, Coinsurance and Copays</a></li>
                         <li><a href="nosmoking.php">Quit Smoking</a></li>
                         <li><a href="medications.php">Medications</a></li>
                         <li><a href="forms/medcorps-payment-plan.pdf" target="_blank">Payment Plan</a></li>
                         <li><a href="policy/privacy-practices.pdf" target="_blank">Privacy Practices</a></li>
+                        <li><a href="media.php">Helpful Videos</a></li>
                     </ul>
                 </li>
 
@@ -122,15 +125,17 @@
                         <li><a href="policy-office-visit.php">Office Visit</a></li>
                         <li><a href="policy-refill.php">Refills</a></li>
                         <li><a href="policy-payment.php">Payment</a></li>
-                        <li><a href="policy-cancellation.php">Cancellations</a></li>
+                        <li><a href="policy-referral.php">Referral</a></li>
+                        <li><a href="policy-cancellation.php">Cancellations / No Shows</a></li>
                         <li><a href="policy-dismissal.php">Dismissal</a></li>
                         <li><a href="policy-service-animal.php">Service Animal</a></li>
+                        <li><a href="policy-scribe.php">Scribe Service</a></li>
                         <li><a href="forms/privacy-practices.pdf" target="_blank">Privacy Practices</a></li>
                     </ul>
                 </li>
 
                 <li><a href="staff.php">Meet the Staff</a></li>
-                <li><a href="media.php">Helpful Videos</a></li>
+                <!-- <li><a href="media.php">Helpful Videos</a></li> -->
             </ul>
         </nav>
     </div>

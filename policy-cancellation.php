@@ -10,13 +10,13 @@
             <h1>Patient Appointment Cancellations and No Show Policy</h1>
         </div><br>
 
-        <h1>Cancellation Policy</h1><br>
+        <h1>Cancellation Policy & No Shows</h1><br>
 
-        <p>Due to an overwhelming number of late cancellations and no show appointment events, Medcorps Asthma and Pulmonary Specialists is amending our policy to enable us to accommodate more patients on our wait list. </p><br>
+        <p>Due to an overwhelming number of late cancellations and no show appointment events, Medcorps Asthma and Pulmonary Specialists is amending our policy to enable us to accommodate more patients on our wait list.</p><br>
 
         <ol>
             <li>Medcorps Asthma and Pulmonary Specialists requires at least 48 hour notice to cancel your appointment.</li>
-            <li>10 minutes late for your appointment is considered a no show. </li>
+            <li>10 minutes late for your appointment is considered a no show.</li>
         </ol><br>
 
         <ul id="listItem">
@@ -34,8 +34,9 @@
             <li>Our office not being able to confirm your appointment does not negate the late cancel fee</li>
         </ul><br>
 
-        <p>After 2 incidents of late cancelations and/ or no shows for new patient appointments you will not be rescheduled with any of our offices.</p><br>
-        <p>After 3 incidents of late cancelations and/ or no shows for follow up appointments, you will not be rescheduled with any of our offices.</p><br>
+        <p>Late cancelations and/ or no show for new patient appointments will not be rescheduled with any of our offices.</p>
+
+        <p>After 2 incidents of late cancelations and/ or no shows for follow up appointments, you will not be rescheduled with any of our offices.</p><br>
 
         <?php include '_policies.php'; ?>
     </div>

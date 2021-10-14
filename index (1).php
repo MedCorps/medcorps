@@ -21,7 +21,9 @@
     </div>
   </div>
 
+
 <!-- <div class="imgCon" style="width:70%; margin:0 auto;"><img src="img/ban-nurses-week.jpg" alt="veterans day"></div> -->
+
 
     <div class="infoCon" id="vaccine">
       <div id="vaccineInfo">
@@ -110,6 +112,7 @@
     </div>
 
     <?php include '_socialMedia.php'; ?>
+
 
 <!-- <div class="infoCon" id="infoWrap">
         <div class="half" id="highLightinfo">

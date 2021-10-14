@@ -3,15 +3,16 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127204491-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V2L4X8MLTQ"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'UA-127204491-1');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-V2L4X8MLTQ');
     </script>
+
+    <!-- UA-127204491-1 -->
 
     <title>
         <? echo $title_tag; ?>
@@ -28,8 +29,6 @@
     <link rel="apple-touch-icon" sizes="76x76" href="https://www.medcorpsusa.com/touch-icon-ipad.png">
     <link rel="apple-touch-icon" sizes="120x120" href="https://www.medcorpsusa.com/touch-icon-iphone-retina.png">
     <link rel="apple-touch-icon" sizes="152x152" href="https://www.medcorpsusa.com/touch-icon-ipad-retina.png">
-
-
 </head>
 
 <body>
@@ -40,7 +39,8 @@
                 <div id="titleName"><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></div>
                 <div id="titleName"><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></div>
                 <div id="titleName"><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway - PA-C</a></div>
-                <div id="titleName">Asthma &amp; Pulmonary Specialists</div><br>
+                <div id="titleName"><a href="staff.php#devon" title="Click for Bio">Devon Lappin - APRN-NP-C</a></div>
+                <!-- <div id="titleName">Asthma &amp; Pulmonary Specialists</div><br> -->
             </div>
             <div id="title_block">
                 <div id="titlePhone">(856) 352-6572 - Sewell</div>
@@ -48,9 +48,8 @@
                 <div id="titlePhone">(609) 778-2744 - Cape May Court House</div>
                 <div id="titlePhone">(606) 759-9424 - Maysville KY</div>
             </div>
-            <div id="title_socialMedia"><a href="https://www.facebook.com/medcorpsofficial" target="_blank"><img src="img/logo-facebook-50.png" alt="facebook logo" title="Like us on FaceBook"></a></div>
-            <div id="title_socialMedia" alt="google review logo" title="Write a google review"><a href="http://bit.ly/2V9CLYA" target="_blank"><img src="img/logo-google-review-50.jpg"></a></div>
+            <?php include '_socialMediabox.php'; ?>
         </div>
     </div>
 
-    <?php include '_nav.php'; ?>
+<?php include '_nav.php'; ?>

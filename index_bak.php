@@ -39,7 +39,8 @@
                     <div id="titleName"><a href="staff.php#allen" title="Click for Bio">Allen L. Silvey, Jr. - DO</a></div>
                     <div id="titleName"><a href="staff.php#peter" title="Click for Bio">Peter J. Saccone - DO</a></div>
                     <div id="titleName"><a href="staff.php#michelle" title="Click for Bio">Michelle Hathaway - PA-C</a></div>
-                    <div id="titleName">Asthma &amp; Pulmonary Specialists</div><br>
+                    <div id="titleName"><a href="staff.php#devon" title="Click for Bio">Devon Lappin - APRN-NP-C</a></div>
+                    <!-- <div id="titleName">Asthma &amp; Pulmonary Specialists</div><br> -->
                 </div>
                 <div id="title_block">
                     <div id="titlePhone">(856) 352-6572 - Sewell</div>
@@ -47,19 +48,49 @@
                     <div id="titlePhone">(609) 778-2744 - Cape May Court House</div>
                     <div id="titlePhone">(606) 759-9424 - Maysville KY</div>
                 </div>
+                <?php include '_socialMediabox.php'; ?>
             </div>
         </div>
     </div>
 
     <?php include '_nav.php'; ?>
 
+<!-- above the fold event -->
+<!--
+    <div class="imgCon">
+        <img src="img/ban-veterans-day.jpg" alt="veterans day">
+    </div>
+-->
+<!-- above the fold event -->
+
+  <div class="infoCon" id="sleepCenter">
+    <div id="sleepCenterinfo">
+      <div class="half" style="float:right; color:#000;">
+        <div class="pageTitle">Medcorps Center For Sleep Apnea</div>
+        <h1>Bring GREAT! Back to SLEEP!</h1>
+        <p>Solving the problem of a bad nights sleep, due to Sleep Apnea in one night.</p><br />
+        <a href="sleepapnea.php"><button class="button" style="vertical-align:middle"><span>SLEEP APNEA</span></button></a>
+      </div>
+    </div>
+  </div>
+
+    <div class="infoCon" id="vaccine">
+      <div id="vaccineInfo">
+        <div class="half">
+          <div class="pageTitle">Getting the COVID-19 Vaccine</div>
+          <p>At Medcorps we value our patient's health and well-being. Unfortunately, Medcorps is unable to provide the vaccine for COVID-19 at this time. We suggest our New Jersey patients go to the State of New Jersey website to pre-register and get on the list for the vaccine. Please stay safe and healthy.</p><br />
+          <a href="https://covidvaccine.nj.gov/" target="_blank"><button class="button" style="vertical-align:middle"><span>PRE REGISTER HERE </span></button></a>
+        </div>
+      </div>
+    </div>
+
     <div class="infoCon" id="telemed">
+      <div class="half" id="teleImg"><img src="img/ban-telemed-allen.jpg"></div>
         <div class="half">
             <div class="pageTitle">Telemedicine Appointments</div>
             <p>In an effort to help reduce the spread of the Corona or COVID-19 virus, Medcorps is now taking Telemedicine appointments. Telemedicine holds the promise to significantly impact some of the most challenging problems of our current healthcare crisis. Give us a call today to setup an appointment.</p><br>
-            <a href="telemedicine.php"><img src="img/but-telemed.png"></a>
+            <a href="telemedicine.php"><button class="button" style="vertical-align:middle"><span>Telemedicine Setup</span></button></a>
         </div>
-        <div class="half" id="teleImg"><img src="img/ban-telemed.jpg"></div>
     </div>
 
     <div class="infoCon" style="background-color: #141414;">
@@ -76,12 +107,10 @@
     <div class="infoCon" id="foodBank">
         <div class="half">
             <div class="pageTitle">Food Bank of South Jersey</div>
-            <p>Many families throughout the South Jersey are finding it difficult to put food on the table. Medcorps is committed to help those in our community that are struggling at this time. Please join us in assisting the Food Bank of South Jersey. Together we can help others breathe.<a href="http://donate.foodbanksj.org/medcorps" target="_blank"> Click HERE to donate.</a></p><br>
+            <p>Many families throughout the South Jersey area are finding it difficult to put food on the table. Medcorps is committed to help those in our community that are struggling at this time. Please join us in assisting the Food Bank of South Jersey. Together we can help others breathe.<a href="http://donate.foodbanksj.org/medcorps" target="_blank"> Click HERE to donate.</a></p><br>
         </div>
         <div class="half" id=""><a href="http://donate.foodbanksj.org/medcorps" target="_blank"><img src="img/ban-foodbank2.jpg"></a></div>
     </div>
-
-    <!-- <?php include '_socialMedia.php'; ?> -->
 
     <div class="infoCon" id="welcomeBan">
         <div id="hpPatcare">
@@ -131,14 +160,17 @@
         <img src="img/ban-allergy-index.jpg" alt="medcorps allergy forecast image">
     </div>
 
-    <div class="infoCon" id="infoWrap">
+    <?php include '_socialMedia.php'; ?>
+
+
+    <!-- <div class="infoCon" id="infoWrap">
         <div class="half" id="highLightinfo">
             <h3>What is ChronicCare IQ?</h3>
             <p>ChronicCare IQ helps your doctor deliver the highest level of care for their patients through chronic care management, remote patient monitoring, and transitional care management.</p>
         </div>
         <div class="half" id="halfImg"> <a href="https://app.chroniccareiq.com/" target="_blank" rel="noopener"><img src="img/but-chroniccare250.png" alt="click here for chroniccare iq"></a>
         </div>
-    </div>
+    </div> -->
 
     <div class="hpPatcon">
         <div id="hpPatcare">
@@ -155,4 +187,4 @@
         </div>
     </div>
 
-    <?php include '_footer.php'; ?>
+<?php include '_footer.php'; ?>

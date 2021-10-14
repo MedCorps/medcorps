@@ -10,7 +10,7 @@
         <h1 id="coronaupdate"> Coronavirus (COVID-19) UPDATE</h1>
         <p>Dr. Peter Saccone brings a weekly perspective and insight regarding the Corona (COVID-19) virus.</p><br>
         <div class="mediaCon" id="coronacovidupdate">
-            <iframe width="100%" height="" src="https://www.youtube.com/embed/videoseries?list=PLWhkRDequAjo4pbT2GLr49hdgIszNGP7G" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="100%" height="" src="https://www.youtube.com/embed/playlist?list=PLWhkRDequAjo4pbT2GLr49hdgIszNGP7G" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div><br>
 
         <h1 id="handwash">Life is Better with Clean Hands</h1>
